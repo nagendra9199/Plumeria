@@ -57,3 +57,19 @@ body{
     height: 1.5px;
     width: 90%;
 }
+.navbar-list-items a{
+    text-decoration: none;
+}
+.navbar-list-items li{
+    list-style-type: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.navbar-list-items{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-header{
+    margin-right: 20px;
+}

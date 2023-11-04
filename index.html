@@ -19,9 +19,9 @@
                     <div class="logo-header">
                         <a href="index.html"><img src="images/logo_header.jpg" class="logo-header-image"/></a>
                         <h1 class="title-school"><span style="color: rgba(221, 39, 37, 1);">P</span><span style="color: rgba(255, 210, 82, 1);">L</span><span style="color: rgba(4, 144, 70, 1);">U</span><span style="color: rgba(221, 39, 37, 1);">M</span><span style="color: rgba(253, 200, 48, 1);">E</span><span style="color: 
-                            rgba(16, 118, 54, 1);">R</span><span style="color: rgba(221, 39, 37, 1);">I</span><span style="color: rgba(253, 200, 48, 1);">A</span> <span style="color: rgba(221, 39, 37, 1);">S</span><span style="color: rgba(253, 200, 48, 1);">D</span><span style="color: rgba(16, 118, 54, 1);">N</span><span style="color: 
-rgba(4, 144, 70, 1);">.</span> <span style="color: rgba(221, 39, 37, 1);">B</span><span style="color: rgba(253, 200, 48, 1);">H</span><span style="color: 
-rgba(4, 144, 70, 1);">D</span><span style="color: rgba(253, 200, 48, 1);">.</span></h1>
+                        rgba(16, 118, 54, 1);">R</span><span style="color: rgba(221, 39, 37, 1);">I</span><span style="color: rgba(253, 200, 48, 1);">A</span> <span style="color: rgba(221, 39, 37, 1);">S</span><span style="color: rgba(253, 200, 48, 1);">D</span><span style="color: rgba(16, 118, 54, 1);">N</span><span style="color: 
+                        rgba(4, 144, 70, 1);">.</span> <span style="color: rgba(221, 39, 37, 1);">B</span><span style="color: rgba(253, 200, 48, 1);">H</span><span style="color: 
+                        rgba(4, 144, 70, 1);">D</span><span style="color: rgba(253, 200, 48, 1);">.</span></h1>
                     </div>
                     <div class="address-header-container">
                         <div class="call-container">
@@ -38,6 +38,7 @@ rgba(4, 144, 70, 1);">D</span><span style="color: rgba(253, 200, 48, 1);">.</spa
                     </div>
 
                 </div>
+            </div>
                 <hr class="header-line">
                 <div class="navbar-header">
                     <ul class="navbar-list-items">
@@ -49,8 +50,8 @@ rgba(4, 144, 70, 1);">D</span><span style="color: rgba(253, 200, 48, 1);">.</spa
                         <a href=""><li>Contact Us</li></a>
                     </ul>
                 </div>
-            </div>
-            <div class="space"></div>
+                <div class="space"></div>
+            
             <div class="home-page-container">
                 <div class="content-image-container">
                     <div class="content-home-page-container">
@@ -60,8 +61,11 @@ rgba(4, 144, 70, 1);">D</span><span style="color: rgba(253, 200, 48, 1);">.</spa
                     <div class="home-page-image-side">
                         <div class="main-circle-container">
                             <div>
-                                <img src="images/chid1.png" class="child-image-main-image" loading="lazy"/>
+                                <img src="images/chid1.png" class="child-image-main-image" loading="lazy" />
                             </div>
+                            <div class="circle-yellow"></div>
+                            <div class="circle-red"></div>
+                            <div class="circle-linear"></div>
                         </div>
 
                     </div>
@@ -71,5 +75,18 @@ rgba(4, 144, 70, 1);">D</span><span style="color: rgba(253, 200, 48, 1);">.</spa
             </div>
 
         </div>
+        <script>
+            window.addEventListener("scroll", function () {
+            var navbar = document.querySelector(".navbar-header");
+            var header = document.querySelector(".header");
+            var scrollPosition = window.scrollY;
+
+            if (scrollPosition > header.clientHeight) {
+                navbar.classList.add("navbar-fixed");
+            } else {
+                navbar.classList.remove("navbar-fixed");
+            }
+        });
+        </script>
     </body>
 </html>

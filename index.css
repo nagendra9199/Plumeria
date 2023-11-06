@@ -292,6 +292,7 @@ body{
     border-radius: 50%;
     position: absolute;
     bottom: -13%;
+    z-index: -4;
 }
 .pink-circle2{
     background-color: rgba(247, 189, 188, 1);
@@ -301,6 +302,7 @@ body{
     position: absolute;
     bottom: -13%;
     left: 6%;
+    z-index: -4;
 }
 .pink-circle3{
     background-color: rgba(247, 189, 188, 1);
@@ -310,6 +312,7 @@ body{
     position: absolute;
     bottom: -13%;
     left: 12%;
+    z-index: -4;
 }
 .pink-circle4{
     background-color: rgba(247, 189, 188, 1);
@@ -319,6 +322,7 @@ body{
     position: absolute;
     bottom: -13%;
     left: 18%;
+    z-index: -4;
 }
 .pink-circle5{
     background-color: rgba(247, 189, 188, 1);
@@ -328,4 +332,137 @@ body{
     position: absolute;
     bottom: -13%;
     left: 24%;
+    z-index: -4;
+}
+.pink-circle6{
+    background-color: rgba(247, 189, 188, 1);
+    height: 25px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 30%;
+    z-index: -4;
+}
+.pink-circle7{
+    background-color: rgba(247, 189, 188, 1);
+    height: 25px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 36%;
+    z-index: -4;
+}
+.pink-circle8{
+    background-color: rgba(247, 189, 188, 1);
+    height: 25px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 42%;
+    z-index: -4;
+}
+.pink-circle9{
+    background-color: rgba(247, 189, 188, 1);
+    height: 25px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 48%;
+    z-index: -4;
+}
+.pink-circle10{
+    background-color: rgba(247, 189, 188, 1);
+    height: 25px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 54%;
+    z-index: -4;
+}
+.pink-circle11{
+    background-color: rgba(247, 189, 188, 1);
+    height: 25px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 60%;
+    z-index: -4;
+}
+.pink-circle12{
+    background-color: rgba(247, 189, 188, 1);
+    height: 25px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 66%;
+    z-index: -4;
+}
+.pink-circle13{
+    background-color: rgba(247, 189, 188, 1);
+    height: 25px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 72%;
+    z-index: -4;
+}
+.pink-circle14{
+    background-color: rgba(247, 189, 188, 1);
+    height: 25px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 78%;
+    z-index: -4;
+}
+.pink-circle15{
+    background-color: rgba(247, 189, 188, 1);
+    height: 25px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 84%;
+    z-index: -4;
+}
+.pink-circle16{
+    background-color: rgba(247, 189, 188, 1);
+    height: 25px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 90%;
+    z-index: -4;
+}
+.pink-circle17{
+    background-color: rgba(247, 189, 188, 1);
+    height: 25px;
+    width: 4%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 96%;
+    z-index: -4;
+}
+
+.gallery-head{
+    text-align: center;
+    color: rgba(235, 21, 81, 1);
+    font-family: 'preahvihear';
+    font-size: 2.5;
+}
+.content-gallery{
+    color: black;
+    text-align: center;
+    font-size: 2vw;
 }

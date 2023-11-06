@@ -80,8 +80,9 @@ body{
     justify-content: flex-end;
 }
 .navbar-header{
+    min-width: 100%;
     max-width: 100%;
-    margin-right: 4vw;
+    padding-right: 4vw;
     right: 0;
     position: absolute;
     z-index: 100;
@@ -228,7 +229,52 @@ body{
 .about-head{
     color: rgba(235, 21, 81, 1);
     font-size: 3vw;
+    font-family: 'preahvihear';
 }
 .about-content{
     font-size: 1.5vw;
+}
+.programs-head{
+    text-align: center;
+    color:rgba(235, 21, 81, 1);
+    font-size: 2vw;
+}
+.programs-content{
+    font-size: 2vw;
+    text-align: center;
+}
+
+
+
+
+.design-image{
+    max-width: 100%;
+}
+.design-and-image{
+    position: relative;
+}
+.design-and-image-container{
+    max-width: 30%;
+    margin: 3vw;
+}
+.image1{
+    width: 55%;
+    position: absolute;
+    top:15%;
+    left: 15%;
+}
+.content-image{
+    position: absolute;
+    right: 4%;
+    bottom: 8%;
+    font-size: 1.3vw;
+    color: white;
+}
+.flex-programs-container{
+    display: flex;
+}
+.programs-content-main{
+    border: dashed;
+    font-size: 1.5vw;
+    padding: 1vw;
 }

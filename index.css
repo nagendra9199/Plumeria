@@ -255,7 +255,7 @@ body{
 }
 .design-and-image-container{
     max-width: 30%;
-    margin: 1.5vw;
+    margin: 0.7vw;
 }
 .image1{
     width: 55%;
@@ -276,7 +276,7 @@ body{
 .programs-content-main{
     border: dashed;
     font-size: 1.5vw;
-    padding: 1vw;
+    padding: 0.5vw;
 }
 
 

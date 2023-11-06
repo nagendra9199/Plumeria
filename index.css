@@ -14,22 +14,25 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 .logo-header-image{
-    height: 80px;
-    width: 80px;
+    height: 30%;
+    width: 30%;
     border-radius: 100%;
 }
 .title-school{
-    font-size: 35px;
+    font-size: 2vw;
     font-family: 'preahvihear';
-    margin-left: 30px;
 }
 .call-head{
     font-weight: bold;
     font-family: sans-serif;
+}
+.call-container p{
+    font-size: 1vw;
+}
+.address-container p{
+    font-size: 1vw;
 }
 .call-icon{
     rotate: -45deg;
@@ -123,31 +126,35 @@ body{
     font-weight: 650;
 }
 .content-home-page-container{
-    margin-left: 10px;
+    max-width: 40%;
+}
+.home-page-image-side{
+    max-width: 55%;
 }
 .main-circle-container{
-    background-color:rgba(255,277,179,1);
-    height: 505px;
-    width: 505px;
+    background-color: rgba(255,277,179,1);
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: end;
     position: relative;
+    z-index: 10;
 }
 .child-image-main-image{
-    max-width: 750px;
+    max-width: 100%;
+    position: relative;
+    z-index: 5;
 }
 .content-image-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 .circle-yellow{
     background-color: rgba(253, 200, 48, 1);
-    height: 50px;
-    width: 50px;
+    height: 10%;
+    width: 8%;
     border-radius: 100%;
     position: absolute;
     top: 10%;
@@ -155,8 +162,8 @@ body{
 }
 .circle-red{
     background-color: rgba(243, 115, 53, 1);
-    height: 80px;
-    width: 80px;
+    height: 15%;
+    width: 10%;
     position: absolute;
     top: 0;
     border-radius: 100%;
@@ -164,10 +171,45 @@ body{
 }
 .circle-linear{
     background: linear-gradient(to bottom, rgba(252, 195, 48, 1),rgba(244, 125, 52, 1));
-    height: 80px;
-    width: 80px;
+    height: 15%;
+    width: 10%;
     position: absolute;
     top: 60%;
     left: 0;
     border-radius: 100%;
+}
+
+
+.section2{
+    background-color: rgba(146, 208, 196, 1);
+    height: 50vh;
+    position: relative;
+
+}
+.square-design1{
+    height: 10%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: -5%;
+}
+.square-design2{
+    height: 10%;
+    width: 30%;
+    background-color: rgba(146, 208, 196, 1);
+    border-radius: 50%;
+    position: absolute;
+    top: -2%;
+    left: 37%;
+    z-index: 3;
+}
+.square-design3{
+    height: 10%;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: -5%;
+    right: 0%;
 }

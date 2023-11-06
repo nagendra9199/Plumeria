@@ -255,7 +255,7 @@ body{
 }
 .design-and-image-container{
     max-width: 30%;
-    margin: 3vw;
+    margin: 1.5vw;
 }
 .image1{
     width: 55%;
@@ -277,4 +277,59 @@ body{
     border: dashed;
     font-size: 1.5vw;
     padding: 1vw;
+}
+
+
+.admission-section{
+    background-color: rgba(247, 189, 188, 1);
+    position: relative;
+}
+.admission-head{
+    text-align: center;
+    color: rgba(235, 21, 81, 1);
+    font-family: 'preahvihear';
+}
+.pink-circle1{
+    background-color: rgba(247, 189, 188, 1);
+    height: 20px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+}
+.pink-circle2{
+    background-color: rgba(247, 189, 188, 1);
+    height: 20px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 6%;
+}
+.pink-circle3{
+    background-color: rgba(247, 189, 188, 1);
+    height: 20px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 12%;
+}
+.pink-circle4{
+    background-color: rgba(247, 189, 188, 1);
+    height: 20px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 18%;
+}
+.pink-circle5{
+    background-color: rgba(247, 189, 188, 1);
+    height: 20px;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -13%;
+    left: 24%;
 }

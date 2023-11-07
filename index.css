@@ -186,6 +186,7 @@ body{
     background-color: rgba(146, 208, 196, 1);
     height: max-content;
     position: relative;
+    padding: 3vw;
 
 }
 .square-design1{
@@ -219,10 +220,10 @@ body{
 }
 
 .section2-part1{
-    width: 40%;
+    width: 50%;
 }
 .section2-part2{
-    width: 60%;
+    width: 50%;
 }
 .section2-flex-container{
     display: flex;
@@ -235,6 +236,64 @@ body{
 .about-content{
     font-size: 1.5vw;
 }
+.about-circle-shape{
+    background-color: #ffffff;
+    height: 20vw;
+    width: 40%;
+    border-top-left-radius: 150%;
+    border-top-right-radius: 150%;
+    border-bottom-right-radius: 80%;
+    border-bottom-left-radius: 80%;
+    z-index: 5;
+}
+.about-circle-side{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 2vw;
+    position: relative;
+}
+.about-shape-image{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 150%;
+    border-top-right-radius: 150%;
+    border-bottom-right-radius: 80%;
+    border-bottom-left-radius: 80%;
+}
+.about-yellow-shape{
+    height: 5vw;
+    width: 30%;
+    background-color: rgba(247, 148, 30, 1);
+    border-radius: 100%;
+    position: absolute;
+    top: 10%;
+    rotate: -20deg;
+}
+.about-blue-shape{
+    height: 8vw;
+    width: 20%;
+    background-color: rgba(10, 99, 117, 1);
+    border-top-right-radius: 80%;
+    border-top-left-radius: 150%;
+    border-bottom-left-radius: 150%;
+    border-bottom-right-radius: 150%;
+    position: absolute;
+    left: -2%;
+    bottom: 10%;
+}
+.about-shape-image2{
+    width: 30%;
+    border-radius: 500%;
+    position: absolute;
+    left: 30%;
+    z-index: 10;
+    bottom: 0;
+}
+
+
+
+
 .programs-head{
     text-align: center;
     color:rgba(235, 21, 81, 1);

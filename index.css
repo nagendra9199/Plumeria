@@ -10,14 +10,18 @@ body{
 }
 .logo-header{
     display: flex;
+    position: relative;
 }
 .logo-header-image{
     border-radius: 100%;
-    height: 50px;
+    width: 20%;
 }
 .title-school{
     font-size: 2vw;
     font-family: 'preahvihear';
+    position: absolute;
+    left: 23%;
+    top: 20%;
 }
 .call-head{
     font-weight: bold;
@@ -283,6 +287,7 @@ body{
     text-align: center;
     color: rgba(235, 21, 81, 1);
     font-family: 'preahvihear';
+    font-size: 2.5vw;
 }
 .pink-circle1{
     background-color: rgba(247, 189, 188, 1);
@@ -454,14 +459,48 @@ body{
     z-index: -4;
 }
 
+.gallery-section{
+    min-height:max-content;
+}
 .gallery-head{
     text-align: center;
     color: rgba(235, 21, 81, 1);
     font-family: 'preahvihear';
-    font-size: 2.5;
+    font-size: 2.5vw;
 }
 .content-gallery{
     color: black;
     text-align: center;
     font-size: 2vw;
+}
+
+.gal-image1-container{
+    width: 22%;
+    background-color: #ffffff;
+    height: 50%;
+    margin: 1vw;
+}
+.gal-image1-container img{
+    width: 100%;
+    height: 100%;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.gal-image2-container{
+    width: 22%;
+    background-color: #ffffff;
+    margin-top: 3vw;
+    height: 50%;
+}
+.gal-image2-container img{
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

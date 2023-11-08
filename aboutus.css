@@ -142,3 +142,50 @@ body{
     height: 30vw;
     width: 100%;
 }
+.vision-container{
+    width: 40%;
+}
+.vision-container h1{
+    color: green;
+    font-size: 3vw;
+}
+.vision-container p{
+    color: blue;
+    line-height: 2.5vw;
+    font-size: 1.6vw;
+}
+.vision-image{
+    width: 40%;
+}
+.vision-image img{
+    width: 100%;
+}
+.vision-image-content-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 4vw;
+}
+
+.mission-container{
+    width: 40%;
+}
+.mission-container h1{
+    color: green;
+    font-size: 3vw;
+}
+.mission-container p{
+    color: blue;
+    line-height: 2.5vw;
+    font-size: 1.6vw;
+}
+.mission-image{
+    width: 40%;
+}
+.mission-image img{
+    width: 100%;
+}
+.mission-image-content-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 4vw;
+}

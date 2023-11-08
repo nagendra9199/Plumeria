@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tadika Plumeria</title>
+        <link rel="icon" href="images/logo1.png" type="image/png">
+        <link rel="shortcut icon" href="images/logo1.png" type="image/png">
+        <link href='https://fonts.googleapis.com/css?family=Preahvihear' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="URL_TO_FONT_FILE.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="URL_TO_FONT_FILE.woff" as="font" type="font/woff" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="aboutus.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="header">
+                <div class="head-logo-address">
+                    <div class="logo-header">
+                        <a href="index.html"><img src="images/logo1.png" class="logo-header-image"/></a>
+                        <h1 class="title-school"><span style="color: rgba(221, 39, 37, 1);">P</span><span style="color: rgba(255, 210, 82, 1);">L</span><span style="color: rgba(4, 144, 70, 1);">U</span><span style="color: rgba(221, 39, 37, 1);">M</span><span style="color: rgba(253, 200, 48, 1);">E</span><span style="color: 
+                        rgba(16, 118, 54, 1);">R</span><span style="color: rgba(221, 39, 37, 1);">I</span><span style="color: rgba(253, 200, 48, 1);">A</span> <span style="color: rgba(221, 39, 37, 1);">S</span><span style="color: rgba(253, 200, 48, 1);">D</span><span style="color: rgba(16, 118, 54, 1);">N</span><span style="color: 
+                        rgba(4, 144, 70, 1);">.</span> <span style="color: rgba(221, 39, 37, 1);">B</span><span style="color: rgba(253, 200, 48, 1);">H</span><span style="color: 
+                        rgba(4, 144, 70, 1);">D</span><span style="color: rgba(253, 200, 48, 1);">.</span></h1>
+                    </div>
+                    <div class="address-header-container">
+                        <div class="call-container">
+                            <p class="call-head"><i class="fa-solid fa-phone-volume call-icon"></i> Call</p>
+                            <p>+60 11-6545 6045</p>
+                            <p>+60 11-1129 9342</p>
+
+                        </div>
+                        <div class="address-container">
+                            <p class="address-head"><i class="fa-solid fa-location-dot address-icon"></i> Address</p>
+                            <p>1, Jalan Uda Utama 5/17, 81200 Johor Bahru, Johor, Malaysia</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+                <hr class="header-line">
+                <div class="navbar-header">
+                    <ul class="navbar-list-items">
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="aboutus.html"><li>About Us</li></a>
+                        <a href=""><li>Programs</li></a>
+                        <a href=""><li>Admission</li></a>
+                        <a href=""><li>Gallery</li></a>
+                        <a href=""><li>Contact Us</li></a>
+                    </ul>
+                </div>
+                <div class="space"></div>
+        </div>
+        <script>
+            window.addEventListener("scroll", function () {
+            var navbar = document.querySelector(".navbar-header");
+            var header = document.querySelector(".header");
+            var scrollPosition = window.scrollY;
+
+            if (scrollPosition > header.clientHeight) {
+                navbar.classList.add("navbar-fixed");
+            } else {
+                navbar.classList.remove("navbar-fixed");
+            }
+        });
+        </script>
+    </body>
+</html>

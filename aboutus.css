@@ -118,3 +118,27 @@ body{
   height: 3px;
   background-color: #b10505;
 }
+
+
+.aboutus-top-background{
+    background-color: #971c1c;
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 50%;
+}
+.aboutus-head{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+.about-image-container{
+    height: 30vw;
+    width: 30vw;
+}
+.about-image-container img{
+    object-fit: cover;
+    height: 30vw;
+    width: 100%;
+}

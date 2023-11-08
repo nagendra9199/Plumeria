@@ -164,7 +164,16 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 4vw;
+    align-items: center;
+    transform: translateX(-100%);
+    animation: slideIn 2s ease-in-out forwards;
 }
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+    }
+}
+
 
 .mission-container{
     width: 40%;
@@ -188,4 +197,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 4vw;
+    align-items: center;
+    transform: translateX(100%);
+    animation: slideIn 2s ease-in-out forwards;
 }

@@ -92,7 +92,7 @@ body{
     top: 0;
 }
 .space{
-    height: 80px;
+    height: 8vw;
 }
 
 
@@ -133,6 +133,7 @@ body{
 }
 .content-main-page{
     font-size: 1.3vw;
+    line-height: 2vw;
 }
 .main-circle-container{
     background-color: rgba(255,277,179,1);

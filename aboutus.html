@@ -48,7 +48,7 @@
                     <ul class="navbar-list-items">
                         <a href="index.html"><li>Home</li></a>
                         <a href="aboutus.html"><li>About Us</li></a>
-                        <a href=""><li>Programs</li></a>
+                        <a href="programs.html"><li>Programs</li></a>
                         <a href=""><li>Admission</li></a>
                         <a href=""><li>Gallery</li></a>
                         <a href=""><li>Contact Us</li></a>
@@ -75,13 +75,13 @@
                             </p>
                         </div>
                         <div class="vision-image">
-                            <img src="images/gal60.jpeg"/>
+                            <img src="images/gal60.jpeg" class=" inline-photo show-on-scroll"/>
                         </div>
                     </div>
 
                     <div class="mission-image-content-container">
                         <div class="mission-image">
-                            <img src="images/gal75.jpeg"/>
+                            <img src="images/gal75.jpeg" class=" inline-photo show-on-scroll"/>
                         </div>
                         <div class="mission-container">
                             <h1>Mission</h1>
@@ -99,6 +99,21 @@
                     </div>
                 </div>
 
+                <div class="about-remaining">
+                    <p>Every aspect of learning and needs of the child are deeply questioned and enriched by
+                       the teacher, the participation of the parent and the inclusion of the community. 
+                       The school’s approach to pre-primary education is grounded on activity-based 
+                       learning which helps foster and stimulate healthy inquisitiveness in the 
+                       tiny tots. The school tries to build social skills at an early age and the
+                       children learn to be open minded and unprejudiced towards their peers and 
+                       to collaborate with them.
+                    </p>
+                </div>
+                
+
+                <div class="footer-section">
+                    <p class="footer-copyright">Copyright © 2023 Tadika Plumeria SDN. BHD | All Rights Reserved </p>
+                </div>
 
         </div>
         <script>
@@ -113,6 +128,47 @@
                 navbar.classList.remove("navbar-fixed");
             }
         });
+
+
+
+
+
+
+        var scroll = window.requestAnimationFrame ||
+        function(callback){ window.setTimeout(callback, 1000/60)};
+        var elementsToShow = document.querySelectorAll('.show-on-scroll'); 
+
+        function loop() {
+
+            Array.prototype.forEach.call(elementsToShow, function(element){
+            if (isElementInViewport(element)) {
+                element.classList.add('is-visible');
+            } else {
+                element.classList.remove('is-visible');
+            }
+            });
+
+            scroll(loop);
+        }
+
+        loop();
+
+        function isElementInViewport(el) {
+            if (typeof jQuery === "function" && el instanceof jQuery) {
+                el = el[0];
+            }
+            var rect = el.getBoundingClientRect();
+            return (
+                (rect.top <= 0
+                && rect.bottom >= 0)
+                ||
+                (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+                ||
+                (rect.top >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+            );
+        }
         </script>
     </body>
 </html>

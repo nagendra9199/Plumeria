@@ -71,8 +71,7 @@ body{
 }
 .navbar-list-items li{
     list-style-type: none;
-    color: rgb(184, 184, 57);
-    font-weight: bold;
+    color: rgba(255, 245, 0, 1);
     margin-left: 5vw;
 }
 .navbar-list-items{
@@ -115,6 +114,24 @@ body{
 }
 
 .programs-background-container{
-    background-image: url('images/programs_background2.jpg');
+    background-image: url('images/programs_background.png');
     background-size: cover;
+}
+
+.programs-heading{
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+}
+.programs-sub-head{
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+}
+.programs-sub-head2{
+    color: rgba(255, 245, 0, 1);
+}
+.programs-heading-container{
+    margin-top: 10vw;
+    padding-bottom: 20vw;
 }

@@ -92,7 +92,7 @@ body{
     top: 0;
 }
 .space{
-    height: 80px;
+    height: 8vw;
 }
 
 
@@ -235,16 +235,6 @@ body{
 }
 
 
-.footer-section{
-    background-color: #154924;
-    padding: 3vw;
-}
-.footer-copyright{
-    color: white;
-    text-align: center;
-    font-size: 1.5vw;
-}
-
 .inline-photo {
     border: 1em solid rgb(6, 91, 117);
     border-bottom: 3em solid rgb(6, 91, 117);
@@ -264,3 +254,174 @@ body{
     opacity: 1;
     transform: rotateZ(-2deg);
   }
+
+
+
+  .footer-section{
+    background-color: rgba(32, 123, 142, 1);
+    position: relative;
+    overflow-x: hidden;
+    height: max-content;
+}
+.footer-copyright{
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.telegram-image{
+    height: 5vw;
+    position: absolute;
+    top: 4%;
+    left: 0;
+}
+.cloud1-image{
+    height: 5vw;
+    left: 20%;
+    top: 17%;
+    position: absolute;
+}
+.sun-image{
+    height: 5vw;
+    position: absolute;
+    left: 60%;
+    top: 10%;
+}
+.rocket-image{
+    height: 8vw;
+    position: absolute;
+    right: 0%;
+    top: 30%;
+}
+.cloud2-image{
+    height: 5vw;
+    position: absolute;
+    right: -5%;
+}
+.footer-logo-image{
+    height: 10vw;
+}
+.footer-section2{
+    margin-top: 9vw;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-section2 h1{
+    color: #b10505;
+    font-size: 2vw;
+}
+.footer-logo{
+    width: 23%;
+    position: relative;
+    z-index: 3;
+}
+.footer-logo p{
+    font-size: 1.6vw;
+    color: #ffffff;
+}
+.footer-pages{
+    width: 23%;
+    position: relative;
+    z-index: 3;
+}
+.footer-pages p{
+    font-size: 1.4vw;
+    color: #ffffff;
+    margin: 0;
+    line-height: 2.5vw;
+}
+.footer-pages-2{
+    width: 23%;
+    position: relative;
+    z-index: 3;
+}
+.footer-pages-2 p{
+    font-size: 1.4vw;
+    color: #ffffff;
+    margin: 0;
+    line-height: 2.5vw;
+}
+.footer-contact-us{
+    width: 23%;
+    z-index: 3;
+    position: relative;
+}
+.footer-contact-us p{
+    font-size: 1.4vw;
+    color: #ffffff;
+    
+}
+
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 2vw;
+    justify-content: center;
+}
+.fa-facebook{
+    font-size: 2.2vw;
+    color: #1877f2;
+}
+.fa-twitter{
+    font-size: 2.2vw;
+    color: #1da1f2;
+}
+.fa-instagram{
+    font-size: 2.2vw;
+    color: #e4405f;
+}
+.twitter{
+    height: 2vw;
+}
+.social-icons li {
+    margin-right: 1vw;
+    background-color: #fff;
+    padding: 1vw;
+    text-align: center;
+    border-radius: 200%;
+    height:2vw;
+    width: 2vw;
+}
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+}
+.facebook-icon {
+    color: #1877f2;
+}
+.twitter-icon {
+    color: #1da1f2;
+}
+.instagram-icon {
+    color: #e4405f;
+}
+
+
+.footer-section-each{
+    width: 30%;
+}
+.footer-hr-dotted{
+    border:0.1vw dashed;
+    color: #fff;
+}
+.footer-child-images{
+    height: 10vw;
+}
+.footer-section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pencil-image{
+    height: 3vw;
+}
+.scale-image{
+    height: 3vw;
+    right: 0;
+}
+.flex-pencil-scale{
+    display: flex;
+    justify-content: space-between;
+}

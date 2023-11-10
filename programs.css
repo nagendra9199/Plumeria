@@ -3,7 +3,6 @@ body{
     max-width: 100%;
 }
 .header{
-    width: 100%;
     top: 0;
     left: 0;
     background-color: transparent;
@@ -17,7 +16,7 @@ body{
     position: relative;
 }
 .logo-header-image{
-    border-radius: 100%;
+    border-radius: ;
     width: 20%;
 }
 .title-school{
@@ -87,10 +86,9 @@ body{
     margin-right: 4vw;
 }
 .navbar-header{
-    min-width: 100%;
-    max-width: 100%;
     position: absolute;
     top: 19%;
+    right: 0;
 }
 .navbar-fixed {
     position: fixed;

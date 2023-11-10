@@ -17,6 +17,7 @@
     </head>
     <body>
         <div>
+            <img src="images/programs_background2.jpg" style="width: 100%;" class="programs-background-image"/>
             <div class="header">
                 <div class="head-logo-address">
                     <div class="logo-header">
@@ -53,7 +54,23 @@
                         <a href=""><li>Contact Us</li></a>
                     </ul>
                 </div>
-                <div class="space"></div>
+                <div>
+                    
+                </div>
         </div>
+
+        <script>
+            window.addEventListener("scroll", function () {
+                var navbar = document.querySelector(".navbar-header");
+                var header = document.querySelector(".header");
+                var scrollPosition = window.scrollY;
+
+                if (scrollPosition > header.clientHeight) {
+                    navbar.classList.add("navbar-fixed");
+                } else {
+                    navbar.classList.remove("navbar-fixed");
+                }
+            });
+        </script>
     </body>
 </html>

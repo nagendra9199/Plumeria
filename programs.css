@@ -194,7 +194,7 @@ body{
     position: relative;
   }
   .letters-image{
-    height: 3vw;
+    height: 4vw;
     margin-bottom: 2vw;
   }
   .total-flex{
@@ -217,11 +217,19 @@ body{
     left: 5%;
   }
   .program-image-child{
-    height: 25vw;
+    height: 22vw;
+    position: absolute;
+    z-index: 10;
+    object-fit: cover;
+    width: 100%;
+  }
+  .program-image-child-container{
+    height: 22vw;
+    width: 30%;
+    background-color: transparent;
     position: absolute;
     top: 18%;
     left: 6%;
-    z-index: 10;
   }
   .yellow-circle-border{
     height: 12vw;
@@ -229,8 +237,8 @@ body{
     border-radius: 100%;
     border:6px solid rgba(254, 227, 112, 1);
     position: absolute;
-    bottom: 10%;
-    left: 22%;
+    bottom: 15%;
+    left: 20%;
   }
   .programs-shape-content{
     width: 50%;
@@ -241,12 +249,12 @@ body{
     font-weight: bold;
   }
   .programs-slides-para{
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     color: #ffffff;
   }
   .programs-shape-content{
     position: absolute;
-    top: 17%;
+    top: 20%;
     left: 45%;
     transform: rotate(1deg);
   }
@@ -257,16 +265,16 @@ body{
     bottom: 5%;
   }
   .sun-image{
-    height: 7vw;
+    height: 5vw;
     position: absolute;
-    top: 13%;
-    right: 13%;
+    top: 18%;
+    right: 10%;
   }
   .globe-image{
-    height: 10vw;
+    height: 8vw;
     position: absolute;
-    right: -3%;
-    top: 15%;
+    right: -1%;
+    top: 20%;
     z-index: -10;
   }
   .red-half-circle{

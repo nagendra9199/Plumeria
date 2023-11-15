@@ -286,42 +286,60 @@
 
             
             window.addEventListener("scroll", function () {
-                var navbar = document.querySelector(".navbar-header");
-                var header = document.querySelector(".header");
-                var scrollPosition = window.scrollY;
+        var navbar = document.querySelector(".navbar-header");
+        var header = document.querySelector(".header");
+        var scrollPosition = window.scrollY;
 
-                if (scrollPosition > header.clientHeight) {
-                    navbar.classList.add("navbar-fixed");
-                } else {
-                    navbar.classList.remove("navbar-fixed");
-                }
-            });
+        if (scrollPosition > header.clientHeight) {
+            navbar.classList.add("navbar-fixed");
+        } else {
+            navbar.classList.remove("navbar-fixed");
+        }
+    });
 
-            var slideIndex = 1;
-            showDivs(slideIndex);
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    var slideInterval;
 
     
-            setInterval(function () {
-                gsap.to(".mySlides", { opacity: 0, duration: 1, onComplete: function () {
-                    plusDivs(1);
-                    gsap.to(".mySlides", { opacity: 1, duration: 1 });
-                } });
-            }, 6000);
+    function startSlideShow() {
+        slideInterval = setInterval(function () {
+            plusDivs(1);
+        }, 6000);
+    }
 
-            function plusDivs(n) {
-                showDivs(slideIndex += n);
-            }
+    
+    function stopSlideShow() {
+        clearInterval(slideInterval);
+    }
 
-            function showDivs(n) {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                if (n > x.length) { slideIndex = 1 }
-                if (n < 1) { slideIndex = x.length }
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                x[slideIndex - 1].style.display = "block";
+    
+    window.addEventListener("load", startSlideShow);
+
+    
+    var image = document.querySelector(".mySlides");
+    image.addEventListener("mouseenter", stopSlideShow);
+    image.addEventListener("mouseleave", startSlideShow);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = x.length }
+
+        gsap.to(".mySlides", { x: "-100%", opacity: 0, duration: 1, onComplete: function () {
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
             }
+            x[slideIndex - 1].style.display = "block";
+            gsap.fromTo(".mySlides", { x: "100%", opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
+        } });
+    }
         </script>
     </body>
 </html>

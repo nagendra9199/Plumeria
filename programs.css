@@ -119,7 +119,6 @@ body{
     background-size: cover;
     position: relative;
     height: 50vw;
-    
 }
 
 .programs-heading{
@@ -515,41 +514,3 @@ body{
     justify-content: space-between;
 }
 
-
-.footer-squre1{
-    height: 15vw;
-    background-color: #ffffff;
-    width: 30vw;
-    border-radius: 50%;
-    position: absolute;
-    top: -23%;
-    left: -3%;
-}
-.footer-squre2 {
-    height: 15vw;
-    background-color: rgba(32, 123, 142, 1);
-    width: 40vw;
-    border-radius: 50%;
-    position: absolute;
-    left: 24.5%;
-    top: -8.9%;
-    z-index: 7;
-}
-.footer-squre3{
-    height: 15vw;
-    background-color: #ffffff;
-    width: 30vw;
-    border-radius: 50%;
-    position: absolute;
-    top: -25%;
-    right: 7%;
-}
-.footer-squre4{
-    height: 4vw;
-    background-color: rgba(32, 123, 142, 1);
-    width: 10vw;
-    border-radius: 50%;
-    position: absolute;
-    top: -1%;
-    right:0.8%;
-}

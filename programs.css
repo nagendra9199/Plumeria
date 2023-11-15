@@ -117,6 +117,8 @@ body{
     background-image: url('images/programs_background2.png');
     background-size: cover;
     position: relative;
+    height: 50vw;
+    
 }
 
 .programs-heading{
@@ -134,5 +136,136 @@ body{
 }
 .programs-heading-container{
     margin-top: 10vw;
-    padding-bottom: 20vw;
+    padding-bottom: 12vw;
 }
+
+.abcde {
+    text-align: center;
+    font-size: 3vw;
+    font-weight:bolder;
+}
+
+.a {
+    color: rgba(196, 155, 39, 1);
+    transform: rotate(0deg);
+}
+
+.b {
+    color: rgba(255, 140, 112, 1);
+    transform: rotate(-20deg);
+}
+
+.c {
+    color: rgba(196, 155, 39, 1);
+    transform: rotate(20deg);
+}
+
+.d {
+    color: rgba(255, 109, 174, 1);
+    transform: rotate(-20deg);
+}
+
+.e {
+    color: rgba(91, 217, 160, 1);
+    transform: rotate(20deg);
+}
+.programs-slide-background-container {
+    height: 35vw;
+    position: relative;
+  }
+  .programs-background-image{
+    height: 35vw;
+    position: relative;
+  }
+  .mySlides {
+    display: none;
+  }
+  .w3-button{
+    background-color: #ffffff !important;
+    border-radius: 100%;
+    color: black !important;
+    font-size: 1.5vw;
+    padding: 0vw 0.8vw !important;
+    position: absolute !important;
+    top: 50% !important;
+  }
+  .slide-container{
+    width: 85% !important;
+    position: relative;
+  }
+  .letters-image{
+    height: 3vw;
+    margin-bottom: 2vw;
+  }
+  .total-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-button{
+    position: absolute !important;
+    right: 3% !important;
+  }
+  .left-button{
+    position: absolute !important;
+    left: 1% !important;
+  }
+  .book{
+    height: 5vw;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+  .program-image-child{
+    height: 25vw;
+    position: absolute;
+    top: 18%;
+    left: 6%;
+    z-index: 10;
+  }
+  .yellow-circle-border{
+    height: 12vw;
+    width: 15%;
+    border-radius: 100%;
+    border:6px solid rgba(254, 227, 112, 1);
+    position: absolute;
+    bottom: 10%;
+    left: 22%;
+  }
+  .programs-shape-content{
+    width: 50%;
+  }
+  .programs-slides-head{
+    color: rgba(235, 21, 81, 1);
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  .programs-slides-para{
+    font-size: 1.6vw;
+    color: #ffffff;
+  }
+  .programs-shape-content{
+    position: absolute;
+    top: 17%;
+    left: 45%;
+    transform: rotate(1deg);
+  }
+  .child-image-playing{
+    height: 7vw;
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+  }
+  .sun-image{
+    height: 7vw;
+    position: absolute;
+    top: 13%;
+    right: 13%;
+  }
+  .globe-image{
+    height: 10vw;
+    position: absolute;
+    right: -3%;
+    top: 15%;
+    z-index: -10;
+  }

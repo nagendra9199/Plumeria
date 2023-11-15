@@ -269,3 +269,55 @@ body{
     top: 15%;
     z-index: -10;
   }
+  .red-half-circle{
+    height: 15vw;
+    width: 18%;
+    border-radius: 100%;
+    border:5px solid rgba(241, 90, 61, 1);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(-50deg);
+    position: absolute;
+    top: -10%;
+    left: -5%;
+  }
+  .blue-half-circle{
+    height: 15vw;
+    width: 18%;
+    border-radius: 100%;
+    border:5px solid rgba(38, 166, 161, 1);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(25deg);
+    position: absolute;
+    top: -3%;
+    right: 5%;
+  }
+  .green-half-circle{
+    height: 15vw;
+    width: 18%;
+    border-radius: 100%;
+    border:5px solid rgba(121, 195, 60, 1);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(200deg);
+    position: absolute;
+    bottom: -15%;
+    left: 0%;
+  }
+  .orange-half-circle{
+    height: 15vw;
+    width: 18%;
+    border-radius: 100%;
+    border:5px solid rgba(255, 170, 35, 1);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(150deg);
+    position: absolute;
+    bottom: -15%;
+    right: 0%;
+  }

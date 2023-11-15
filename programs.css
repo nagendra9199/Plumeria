@@ -4,6 +4,7 @@ body{
 }
 .header{
     background-color: transparent;
+    margin-bottom: 0.5vw;
 }
 .logo-header{
     display: flex;
@@ -66,7 +67,8 @@ body{
     background-color: white;
     height: 1.5px;
     width: 90%;
-    border: white;
+    border: 2% white;
+    margin: 0;
 }
 .navbar-list-items a{
     text-decoration: none;

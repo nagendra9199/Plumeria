@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <style>
         </style>
     </head>
@@ -53,14 +54,65 @@
                         <a href=""><li>Contact Us</li></a>
                     </ul>
                 </div>
-                <div>
-                    
-                </div>
                 <div class="programs-heading-container">
                     <h1 class="programs-heading">Programs</h1>
                 <h2 class="programs-sub-head">Home > <span class="programs-sub-head2">Programs</span></h2>
                 </div>
                 
+        </div>
+        <div class="total-flex">
+            <img src="images/letters.png" loading="lazy" class="letters-image"/>
+            <div class="slide-container">
+                <div class="mySlides">
+                    <div class="programs-slide-background-container">
+                        <img src="images/background.png" loading="lazy" class="programs-background-image"/>
+                        <div class="programs-slides-inner-section">
+                            <img src="images/book.png" class="book" alt="book-image" loading="lazy"/>
+                            <img src="images/img.png" class="program-image-child" loading="lazy" alt="child-image"/>
+                            <div class="yellow-circle-border"></div>
+                            <img src="images/suridu.png" class="sun-image" loading="lazy" alt="sun-image"/>
+                            <img src="images/globe.png" class="globe-image" loading="lazy" alt="globe-image"/>
+                            <div class="programs-shape-content">
+                                <h1 class="programs-slides-head">Pre-Nursery</h1>
+                                <p class="programs-slides-para">The Pre-Nursery program focuses on play-way based learning methodology.
+                                    Play is an essential part of the preschool experience and it provides opportunities for children to
+                                    explore, experiment, and learn in a natural and enjoyable way. It fosters curiosity and creativity.
+                                </p>
+                            </div>
+                            <img src="images/child.png" class="child-image-playing" loading="lazy" alt="child-playing-image"/>
+
+                        </div>
+                    </div>
+                    <button class="w3-button w3-white w3-display-left left-button" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-white w3-display-right right-button" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+                
+            
+                <div class="mySlides">
+                    <div class="programs-slide-background-container">
+                        <img src="images/background.png" loading="lazy" class="programs-background-image"/>
+                        <div class="programs-flex-white-image-shape">
+                            <div class="programs-white-image-shape">
+                                <img src="images/12.png" alt="image" class="programs-image" loading="lazy"/>
+                                <div class="programs-white-image-shape-sub"></div>
+                            </div>
+                            <div class="programs-shape-content">
+                                <h1 class="programs-slides-head">Pre-Nurse</h1>
+                                <p class="programs-slides-para">The Pre-Nursery program focuses on play-way based learning methodology.
+                                    Play is an essential part of the preschool experience and it provides opportunities for children to
+                                    explore, experiment, and learn in a natural and enjoyable way. It fosters curiosity and creativity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="w3-button w3-white w3-display-left left-button" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-white w3-display-right right-button" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+            
+                <!-- Additional slides go here -->
+            
+                
+            </div>
         </div>
 
         <script>
@@ -75,6 +127,26 @@
                     navbar.classList.remove("navbar-fixed");
                 }
             });
+
+            
+
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex-1].style.display = "block";
+            }
         </script>
     </body>
 </html>

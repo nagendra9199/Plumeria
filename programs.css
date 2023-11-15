@@ -174,14 +174,14 @@ body{
     height: 35vw;
     position: relative;
   }
-  .programs-background-image{
+.programs-background-image{
     height: 35vw;
     position: relative;
-  }
-  .mySlides {
+}
+.mySlides {
     display: none;
-  }
-  .w3-button{
+}
+.w3-button{
     background-color: #ffffff !important;
     border-radius: 100%;
     color: black !important;
@@ -189,51 +189,51 @@ body{
     padding: 0vw 0.8vw !important;
     position: absolute !important;
     top: 50% !important;
-  }
-  .slide-container{
+}
+.slide-container{
     width: 85% !important;
     position: relative;
-  }
-  .letters-image{
+}
+.letters-image{
     height: 4vw;
     margin-bottom: 2vw;
-  }
-  .total-flex{
+}
+.total-flex{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 6vw;
-  }
-  .right-button{
+}
+.right-button{
     position: absolute !important;
     right: 3% !important;
-  }
-  .left-button{
+}
+.left-button{
     position: absolute !important;
     left: 1% !important;
-  }
-  .book{
+}
+.book{
     height: 5vw;
     position: absolute;
     top: 10%;
     left: 5%;
-  }
-  .program-image-child{
+}
+.program-image-child{
     height: 22vw;
     position: absolute;
     z-index: 10;
     object-fit: cover;
     width: 100%;
-  }
-  .program-image-child-container{
+}
+.program-image-child-container{
     height: 22vw;
     width: 30%;
     background-color: transparent;
     position: absolute;
     top: 18%;
     left: 6%;
-  }
-  .yellow-circle-border{
+}
+.yellow-circle-border{
     height: 12vw;
     width: 15%;
     border-radius: 100%;
@@ -241,45 +241,45 @@ body{
     position: absolute;
     bottom: 15%;
     left: 20%;
-  }
-  .programs-shape-content{
+}
+.programs-shape-content{
     width: 50%;
-  }
-  .programs-slides-head{
+}
+.programs-slides-head{
     color: rgba(235, 21, 81, 1);
     font-size: 2vw;
     font-weight: bold;
-  }
-  .programs-slides-para{
+}
+.programs-slides-para{
     font-size: 1.4vw;
     color: #ffffff;
-  }
-  .programs-shape-content{
+}
+.programs-shape-content{
     position: absolute;
     top: 20%;
     left: 45%;
     transform: rotate(1deg);
-  }
-  .child-image-playing{
+}
+.child-image-playing{
     height: 7vw;
     position: absolute;
     right: 10%;
     bottom: 5%;
-  }
-  .sun-image{
+}
+.sun-image{
     height: 5vw;
     position: absolute;
     top: 18%;
     right: 10%;
-  }
-  .globe-image{
+}
+.globe-image{
     height: 8vw;
     position: absolute;
     right: -1%;
     top: 20%;
     z-index: -10;
-  }
-  .red-half-circle{
+}
+.red-half-circle{
     height: 15vw;
     width: 18%;
     border-radius: 100%;
@@ -291,8 +291,8 @@ body{
     position: absolute;
     top: -10%;
     left: -5%;
-  }
-  .blue-half-circle{
+}
+.blue-half-circle{
     height: 15vw;
     width: 18%;
     border-radius: 100%;
@@ -304,8 +304,8 @@ body{
     position: absolute;
     top: -3%;
     right: 5%;
-  }
-  .green-half-circle{
+}
+.green-half-circle{
     height: 15vw;
     width: 18%;
     border-radius: 100%;
@@ -317,8 +317,8 @@ body{
     position: absolute;
     bottom: -15%;
     left: 0%;
-  }
-  .orange-half-circle{
+}
+.orange-half-circle{
     height: 15vw;
     width: 18%;
     border-radius: 100%;
@@ -330,9 +330,17 @@ body{
     position: absolute;
     bottom: -15%;
     right: 0%;
-  }
+}
 
-  .footer-section{
+
+
+
+
+
+
+
+
+.footer-section{
     background-color: rgba(32, 123, 142, 1);
     position: relative;
     overflow-x: hidden;
@@ -423,7 +431,7 @@ body{
 .footer-contact-us p{
     font-size: 1.4vw;
     color: #ffffff;
-    
+
 }
 
 

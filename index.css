@@ -147,17 +147,17 @@ body{
     z-index: 10;
 }
 .child-image-main-image{
-    max-width: 100%;
+    max-height: 47vw;
     position: relative;
     z-index: 5;
 }
 .image-zoom {
-    transform: scale(1);
+    transform: scale(0.8);
     transition: transform 0.3s;
 }
 
 .image-zoom:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 .content-image-container{
     display: flex;
@@ -165,6 +165,7 @@ body{
     justify-content: space-around;
     position: relative;
     z-index: 33;
+    overflow-x: hidden;
 }
 .child-image-main-image {
     opacity: 0;
@@ -178,7 +179,7 @@ body{
 .circle-yellow{
     background-color: rgba(253, 200, 48, 1);
     height: 10%;
-    width: 8%;
+    width: 10%;
     border-radius: 100%;
     position: absolute;
     top: 10%;
@@ -187,7 +188,7 @@ body{
 .circle-red{
     background-color: rgba(243, 115, 53, 1);
     height: 15%;
-    width: 10%;
+    width: 13%;
     position: absolute;
     top: 0;
     border-radius: 100%;
@@ -196,7 +197,7 @@ body{
 .circle-linear{
     background: linear-gradient(to bottom, rgba(252, 195, 48, 1),rgba(244, 125, 52, 1));
     height: 15%;
-    width: 10%;
+    width: 13%;
     position: absolute;
     top: 60%;
     left: 0;
@@ -382,7 +383,6 @@ body{
 
 
 .admission-section{
-    background-color: rgba(247, 189, 188, 1);
     position: relative;
 }
 .admission-head{
@@ -391,174 +391,12 @@ body{
     font-family: 'preahvihear';
     font-size: 2.5vw;
 }
-.pink-circle1{
-    background-color: rgba(247, 189, 188, 1);
-    height: 20px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    z-index: -4;
-}
-.pink-circle2{
-    background-color: rgba(247, 189, 188, 1);
-    height: 20px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 6%;
-    z-index: -4;
-}
-.pink-circle3{
-    background-color: rgba(247, 189, 188, 1);
-    height: 20px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 12%;
-    z-index: -4;
-}
-.pink-circle4{
-    background-color: rgba(247, 189, 188, 1);
-    height: 20px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 18%;
-    z-index: -4;
-}
-.pink-circle5{
-    background-color: rgba(247, 189, 188, 1);
-    height: 20px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 24%;
-    z-index: -4;
-}
-.pink-circle6{
-    background-color: rgba(247, 189, 188, 1);
-    height: 25px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 30%;
-    z-index: -4;
-}
-.pink-circle7{
-    background-color: rgba(247, 189, 188, 1);
-    height: 25px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 36%;
-    z-index: -4;
-}
-.pink-circle8{
-    background-color: rgba(247, 189, 188, 1);
-    height: 25px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 42%;
-    z-index: -4;
-}
-.pink-circle9{
-    background-color: rgba(247, 189, 188, 1);
-    height: 25px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 48%;
-    z-index: -4;
-}
-.pink-circle10{
-    background-color: rgba(247, 189, 188, 1);
-    height: 25px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 54%;
-    z-index: -4;
-}
-.pink-circle11{
-    background-color: rgba(247, 189, 188, 1);
-    height: 25px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 60%;
-    z-index: -4;
-}
-.pink-circle12{
-    background-color: rgba(247, 189, 188, 1);
-    height: 25px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 66%;
-    z-index: -4;
-}
-.pink-circle13{
-    background-color: rgba(247, 189, 188, 1);
-    height: 25px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 72%;
-    z-index: -4;
-}
-.pink-circle14{
-    background-color: rgba(247, 189, 188, 1);
-    height: 25px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 78%;
-    z-index: -4;
-}
-.pink-circle15{
-    background-color: rgba(247, 189, 188, 1);
-    height: 25px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 84%;
-    z-index: -4;
-}
-.pink-circle16{
-    background-color: rgba(247, 189, 188, 1);
-    height: 25px;
-    width: 6%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 90%;
-    z-index: -4;
-}
-.pink-circle17{
-    background-color: rgba(247, 189, 188, 1);
-    height: 25px;
-    width: 4%;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -13%;
-    left: 96%;
-    z-index: -4;
+
+
+
+.admission-main-image{
+    opacity: 0.7;
+    width: 100%;
 }
 
 .gallery-section{

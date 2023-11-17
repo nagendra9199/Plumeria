@@ -259,13 +259,7 @@ body{
     z-index: 33;
 }
 .about-content {
-    transform: translateX(-100%);
-    animation: slideIn 2s ease-in-out forwards;
-}
-@keyframes slideIn {
-    to {
-        transform: translateX(0);
-    }
+    width: 95%;
 }
 .section2-flex-container{
     display: flex;
@@ -384,12 +378,19 @@ body{
 
 .admission-section{
     position: relative;
+    background-color: rgba(247, 189, 188, 1);
 }
 .admission-head{
     text-align: center;
     color: rgba(235, 21, 81, 1);
     font-family: 'preahvihear';
     font-size: 2.5vw;
+}
+.admission-image-container{
+    width: 50%;
+}
+.admission-image-container img{
+    width: 100%;
 }
 
 
@@ -446,6 +447,14 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.gal-image2-container img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+.gal-image1-container img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
 }
 
 

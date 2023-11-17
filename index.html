@@ -93,23 +93,22 @@
                     <div class="square-design4"></div>
 
                     <div class="section2-flex-container">
+                        <img src="images/ABOUT2.png" class="about1-image"/>
+                        <img src="images/ABOUT1.png" class="about2-image"/>
 
                     <div class="section2-part1">
                         <div class="about-circle-side">
-                            <div class="about-circle-shape">
-                                <img src="images/gal12.jpeg" class="about-shape-image"/>
-                            </div>
-                            <div class="about-yellow-shape"></div>
-                            <div class="about-blue-shape"></div>
-                            <img src="images/gal13.jpeg" class="about-shape-image2"/>
+                            <img src="images/ABOUTBORDER.png" class="about-border-image" loading="lazy"/>
+                            <img src="images/aboutimage.jpg" class="about-image" loading="lazy"/>
+                            <img src="images/about-child.png" class="about-child-image" loading="lazy"/>
 
                         </div>
                     </div>
                     
                     <div class="section2-part2">
                         <h1 class="about-head">About Us</h1>
-                        <p class="about-content">EARLY DEVOLPMENT IS FUNDAMENTAL TO THE GROWTH OF YOUR CHILD. STARTS WITH PLUMERIA DAYCARE!!!</p>
-                        <p class="about-content" style="margin-left: 3vw;">Placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final</p>
+                        <p class="about-content" style="margin-left: 1.5vw;">EARLY DEVOLPMENT IS FUNDAMENTAL TO THE GROWTH OF YOUR CHILD. STARTS WITH PLUMERIA DAYCARE!!!</p>
+                        <p class="about-content" style="margin-left: 5vw;">Placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final</p>
 
                     </div>
                     </div>
@@ -199,11 +198,16 @@
             <section>
                 <div class="admission-section">
                     <h1 class="admission-head">Admission</h1>
-                    <div class="admission-image-container">
-                        <img src="images/admission15.png" loading="lazy"/>
+                    <div class="admission-section-flex">
+                        <div class="admission-image-container">
+                            <img src="images/admission15.png" loading="lazy"/>
+                        </div>
+    
+                        <div class="admission-content">
+                            <h1 class="admission-content-heading">Admissions are open</h1>
+                            <p class="admission-content-para"><a href="admissionForm.html">Click Here</a> for Admission</p>
+                        </div>
                     </div>
-
-
                     
 
                 </div>
@@ -215,6 +219,7 @@
                     <div class="gallery-container">
                         <div class="gal-image1-container">
                             <a href="images/gal1.jpeg"><img src="images/gal1.jpeg"/></a>
+                            <div class="overlay"></div>
                         </div>
                         <div class="gal-image2-container">
                             <a href="images/gal2.jpeg"><img src="images/gal2.jpeg"/></a>
@@ -324,6 +329,10 @@
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
         <script>
+
+            document.addEventListener('contextmenu', function (e) {
+                e.preventDefault();
+            });
 
 
             window.addEventListener("scroll", function () {

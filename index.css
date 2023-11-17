@@ -127,6 +127,7 @@ body{
 }
 .content-home-page-container{
     max-width: 40%;
+    margin-left: 2vw;
 }
 .home-page-image-side{
     max-width: 55%;
@@ -162,7 +163,7 @@ body{
 .content-image-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     position: relative;
     z-index: 33;
     overflow-x: hidden;
@@ -219,7 +220,7 @@ body{
     padding: 3vw;
 
 }
-.square-design1{
+/*.square-design1{
     height: 50%;
     width: 40%;
     background-color: rgb(255, 255, 255);
@@ -227,8 +228,8 @@ body{
     position: absolute;
     top: -40%;
     left: -3%;
-}
-.square-design{
+}*/
+/*.square-design{
     background-color: rgb(255, 255, 255);
     width: 50px;
     height: 30px;
@@ -247,7 +248,7 @@ body{
     top: -12.5%;
     left: 25%;
     z-index: 9;
-}
+}*/
 
 
 .section2-part1{
@@ -288,6 +289,8 @@ body{
     height: 100%;
     margin-left: 2vw;
     position: relative;
+    width: 100%;
+    position: relative;
 }
 .about-shape-image{
     height: 100%;
@@ -326,8 +329,38 @@ body{
     z-index: 10;
     bottom: 0;
 }
-
-
+.about-border-image{
+    width: 90%;
+    position: relative;
+    z-index: 55;
+}
+.about-image{
+    width: 60%;
+    position: absolute;
+    height: 80%;
+    object-fit: cover;
+    left: 13%;
+}
+.about-child-image{
+    width: 100%;
+    position: absolute;
+    left: 10%;
+    z-index: 60;
+    bottom: 10%;
+    height: 70%;
+    object-fit: cover;
+}
+.about1-image{
+    height: 10vw;
+    position: absolute;
+    right: 10%;
+}
+.about2-image{
+    height: 10vw;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+}
 
 
 .programs-head{
@@ -380,6 +413,10 @@ body{
     position: relative;
     background-color: rgba(247, 189, 188, 1);
 }
+.admission-section-flex{
+    display: flex;
+    justify-content: space-between;
+}
 .admission-head{
     text-align: center;
     color: rgba(235, 21, 81, 1);
@@ -392,7 +429,20 @@ body{
 .admission-image-container img{
     width: 100%;
 }
-
+.admission-content{
+    width: 50%;
+}
+.admission-content-heading{
+    font-size: 3vw;
+    color: #800a0a;
+}
+.admission-content-para{
+    font-size: 2vw;
+    text-align: center;
+}
+.admission-content-para a{
+    color: white;
+}
 
 
 .admission-main-image{
@@ -430,18 +480,23 @@ body{
     height: 20vw;
     object-fit: cover;
     border-radius: 20px;
+    filter: brightness(50%);
+}
+.gal-image1-container:hover .overlay {
+    opacity: 1;
 }
 .gal-image2-container{
     width: 22%;
     background-color: #ffffff;
     margin-top: 3vw;
-    height: 50%;
+    height: 40%;
 }
 .gal-image2-container img{
     width: 100%;
     height: 20vw;
     object-fit: cover;
     border-radius: 20px;
+    filter: brightness(40%);
 }
 .gallery-container{
     display: flex;
@@ -451,11 +506,15 @@ body{
 .gal-image2-container img:hover{
     transform: scale(1.1);
     transition: transform 0.3s;
+    filter: brightness(100%);
 }
 .gal-image1-container img:hover{
     transform: scale(1.1);
     transition: transform 0.3s;
+    filter: brightness(100%);
 }
+
+
 
 
 .footer-section-position{

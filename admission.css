@@ -151,7 +151,7 @@ body{
     margin-top: 3vw;
 }
 .admission-image-side-container{
-    width: 50%;
+    width: 40%;
 }
 .admission-yellow-background-1{
     width: 100%;
@@ -165,9 +165,9 @@ body{
     background-color: rgba(255, 199, 0, 1);
     height: 30vw;
     position: absolute;
-    right: -9%;
+    right: -11%;
     transform: rotate(-20deg);
-    top: 0%;
+    top: -1%;
     border-radius: 3vw;
     border-top-left-radius: 0px;
 }
@@ -182,7 +182,7 @@ body{
 .admission-pink-heart-shape-1{
     background-color: rgba(201, 39, 101, 1);
     height: 27vw;
-    width: 40%;
+    width: 50%;
     position: absolute;
     bottom: -2%;
     right: -11%;
@@ -195,7 +195,7 @@ body{
 .admission-pink-heart-shape-2{
     background-color: rgba(201, 39, 101, 1);
     height: 27vw;
-    width: 40%;
+    width: 50%;
     position: absolute;
     bottom: -27%;
     right: -7%;
@@ -206,46 +206,47 @@ body{
 }
 .admission-pink-circle-container{
     height: 30vw;
-    background: linear-gradient(to bottom,rgba(112, 38, 100, 1),rgba(219, 73, 124, 1));
-    width: 50%;
+    background: linear-gradient(to bottom,rgba(219, 73, 124, 1),rgba(112, 38, 100, 1));
+    width: 60%;
     position: absolute;
-    right: -25%;
-    bottom: -5%;
+    right: -30%;
+    bottom: -15%;
     border-radius: 100%;
     z-index: 1;
     transform: rotate(30deg);
 }
 .admission-child-image{
-    width: 70%;
+    width: 80%;
     position: absolute;
     right: -32%;
     z-index: 5;
     bottom: -12%;
     border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 30%;
 }
 .admission-pink-bottom-small{
     height: 2vw;
-    width: 4%;
+    width: 5%;
     background-color: rgba(112, 38, 100, 1);
-    border-radius: 100%;
+    border-radius: 200%;
     position: absolute;
-    bottom: -20%;
-    right: 30%;
+    bottom: -23%;
+    right: 33%;
     box-shadow: 1px 1px 3px;
 }
 .admission-pink-bottom-big{
     height: 4vw;
-    width: 9%;
+    width: 10%;
     background-color: rgba(112, 38, 100, 1);
     border-radius: 100%;
     position: absolute;
-    bottom: -30%;
+    bottom: -35%;
     right: 20%;
     box-shadow: 1px 1px 3px;
 }
 .admission-pink-bottom-right-small{
     height: 2vw;
-    width: 4%;
+    width: 5%;
     background-color: rgba(112, 38, 100, 1);
     border-radius: 100%;
     position: absolute;
@@ -255,29 +256,29 @@ body{
 }
 .admission-pink-top-small{
     height: 2vw;
-    width: 4%;
+    width: 5%;
     background-color: rgba(112, 38, 100, 1);
     border-radius: 100%;
     position: absolute;
-    right: -8%;
+    right: -11%;
     top: 25%;
 }
 .admission-pink-top-big{
-    height: 3.1vw;
-    width: 7%;
+    height: 4vw;
+    width: 10%;
     background-color: rgba(112, 38, 100, 1);
     border-radius: 100%;
     position: absolute;
-    right: -16%;
+    right: -20%;
     top: 13%;
 }
 .admission-form-flex-container{
     position: relative;
 }
 .admission-form-side-container{
-    width:35%;
+    width:45%;
     position: absolute;
-    left: 64%;
+    left: 54%;
     top: 0;
     z-index: 10;
     box-shadow: 1px 1px 10px;

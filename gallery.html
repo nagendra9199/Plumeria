@@ -106,7 +106,7 @@
 
             <div class="videos-container">
                 <div class="main-video-container">
-                    <video width="70%" class="main-video" height="50%" controls>
+                    <video class="main-video" controls>
                         <source src="images/malasyavideo.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
@@ -116,7 +116,56 @@
                         </svg>
                     </button>
 
-                </div>                  
+                </div>
+                <div class="small-videos-main-container">
+                    <div class="small-video-container">
+                        <video class="small-video" controls>
+                            <source src="images/malasyavideo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <button class="play-button-small" onclick="playPauseSmall()">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="small-video-container2">
+                        <video class="small-video2" controls>
+                            <source src="images/malasyavideo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <button class="play-button-small" onclick="playPauseSmall2()">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="small-video-container3">
+                        <video class="small-video3" controls>
+                            <source src="images/malasyavideo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <button class="play-button-small" onclick="playPauseSmall3()">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="small-video-container4">
+                        <video class="small-video4" controls>
+                            <source src="images/malasyavideo.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <button class="play-button-small" onclick="playPauseSmall4()">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -135,6 +184,43 @@
 
         function playPause() {
             var video = document.querySelector('.main-video');
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
+
+        function playPauseSmall() {
+            var video = document.querySelector('.small-video');
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
+        function playPauseSmall2() {
+            var video = document.querySelector('.small-video2');
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
+        function playPauseSmall3() {
+            var video = document.querySelector('.small-video3');
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
+        function playPauseSmall4() {
+            var video = document.querySelector('.small-video4');
             if (video.paused) {
                 video.play();
             } else {

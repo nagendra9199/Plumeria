@@ -103,6 +103,21 @@
                     </div>
                 </div>
             </div>
+
+            <div class="videos-container">
+                <div class="main-video-container">
+                    <video width="70%" class="main-video" height="50%" controls>
+                        <source src="images/malasyavideo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <button class="play-button" onclick="playPause()">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </button>
+
+                </div>                  
+            </div>
         </div>
 
         <script>
@@ -117,6 +132,15 @@
                 navbar.classList.remove("navbar-fixed");
             }
         });
+
+        function playPause() {
+            var video = document.querySelector('.main-video');
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
         </script>
 
     </body>

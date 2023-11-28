@@ -49,9 +49,9 @@
                         <a href="index.html"><li>Home</li></a>
                         <a href="aboutus.html"><li>About Us</li></a>
                         <a href="programs.html"><li>Programs</li></a>
-                        <a href=""><li>Admission</li></a>
-                        <a href=""><li>Gallery</li></a>
-                        <a href=""><li>Contact Us</li></a>
+                        <a href="admission.html"><li>Admission</li></a>
+                        <a href="gallery.html"><li>Gallery</li></a>
+                        <a href="contactus.html"><li>Contact Us</li></a>
                     </ul>
                 </div>
                 <div class="programs-heading-container">
@@ -200,7 +200,7 @@
 
 
         <section class="footer-section-position">
-            
+                
             <div class="footer-section">
                 <div class="">
                     <img src="images/f1.png" class="telegram-image"/>
@@ -261,7 +261,7 @@
                 <div class="flex-pencil-scale">
                     <img src="images/f6.png" class="pencil-image"/>
                     <img src="images/f8.png" class="scale-image"/>
-                </div>
+                </div> 
             </div>
             
         </section>
@@ -286,60 +286,59 @@
 
             
             window.addEventListener("scroll", function () {
-        var navbar = document.querySelector(".navbar-header");
-        var header = document.querySelector(".header");
-        var scrollPosition = window.scrollY;
+                var navbar = document.querySelector(".navbar-header");
+                var header = document.querySelector(".header");
+                var scrollPosition = window.scrollY;
 
-        if (scrollPosition > header.clientHeight) {
-            navbar.classList.add("navbar-fixed");
-        } else {
-            navbar.classList.remove("navbar-fixed");
-        }
-    });
+                if (scrollPosition > header.clientHeight) {
+                    navbar.classList.add("navbar-fixed");
+                } else {
+                    navbar.classList.remove("navbar-fixed");
+                }
+            });
 
-    var slideIndex = 1;
-    showDivs(slideIndex);
+            var slideIndex = 1;
+            showDivs(slideIndex);
 
-    var slideInterval;
+            var slideInterval;
 
-    
-    function startSlideShow() {
-        slideInterval = setInterval(function () {
-            plusDivs(1);
-        }, 6000);
-    }
-
-    
-    function stopSlideShow() {
-        clearInterval(slideInterval);
-    }
-
-    
-    window.addEventListener("load", startSlideShow);
-
-    
-    var image = document.querySelector(".mySlides");
-    image.addEventListener("mouseenter", stopSlideShow);
-    image.addEventListener("mouseleave", startSlideShow);
-
-    function plusDivs(n) {
-        showDivs(slideIndex += n);
-    }
-
-    function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) { slideIndex = 1 }
-        if (n < 1) { slideIndex = x.length }
-
-        gsap.to(".mySlides", { x: "-100%", opacity: 0, duration: 1, onComplete: function () {
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
+            
+            function startSlideShow() {
+                slideInterval = setInterval(function () {
+                    plusDivs(1);
+                }, 6000);
             }
-            x[slideIndex - 1].style.display = "block";
-            gsap.fromTo(".mySlides", { x: "100%", opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
-        } });
-    }
+
+            function stopSlideShow() {
+                clearInterval(slideInterval);
+            }
+
+            
+            window.addEventListener("load", startSlideShow);
+
+            
+            var image = document.querySelector(".mySlides");
+            image.addEventListener("mouseenter", stopSlideShow);
+            image.addEventListener("mouseleave", startSlideShow);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = x.length }
+
+                gsap.to(".mySlides", { x: "-100%", opacity: 0, duration: 1, onComplete: function () {
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                    gsap.fromTo(".mySlides", { x: "100%", opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
+                } });
+            }
         </script>
     </body>
 </html>

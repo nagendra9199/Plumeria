@@ -61,7 +61,7 @@ body{
     font-size: 15px;
 }
 .header-line{
-    background-color: brown;
+    background-color: rgb(100, 9, 9);
     height: 1.5px;
     width: 90%;
 }
@@ -214,7 +214,8 @@ body{
 
 
 .section2{
-    background-color: rgba(146, 208, 196, 1);
+    background:url("images/aboutbackground.png");
+    background-size: cover;
     height: max-content;
     position: relative;
     padding: 3vw;
@@ -258,9 +259,12 @@ body{
     width: 50%;
     position: relative;
     z-index: 33;
+    margin-top: 5vw;
 }
 .about-content {
-    width: 95%;
+    width: 90%;
+    color: rgb(92, 92, 90);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .section2-flex-container{
     display: flex;
@@ -291,6 +295,7 @@ body{
     position: relative;
     width: 100%;
     position: relative;
+    margin-top: 5vw;
 }
 .about-shape-image{
     height: 100%;
@@ -339,7 +344,7 @@ body{
     position: absolute;
     height: 80%;
     object-fit: cover;
-    left: 13%;
+    left: 15%;
 }
 .about-child-image{
     width: 100%;
@@ -359,7 +364,7 @@ body{
     height: 10vw;
     position: absolute;
     right: 10%;
-    bottom: 10%;
+    bottom: 15%;
 }
 
 
@@ -518,7 +523,8 @@ body{
 
 
 .footer-section-position{
-    background-color: rgba(32, 123, 142, 1);
+    background:url("images/footerbackground.png");
+    background-size: cover;
     position: relative;
 }
 .footer-section{

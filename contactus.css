@@ -135,14 +135,17 @@ body{
     text-align: center;
     color: white;
 }
+
 .programs-sub-head{
     font-size: 1.5vw;
     text-align: center;
     color: white;
 }
+
 .programs-sub-head2{
     color: rgba(255, 245, 0, 1);
 }
+
 .programs-heading-container{
     margin-top: 10vw;
     padding-bottom: 12vw;
@@ -151,27 +154,32 @@ body{
 .contactus-main-container-part1{
     width: 50%;
 }
+
 .contactus-main-container-part2{
     width: 50%;
     margin-right: 2vw;
 }
+
 .contactus-heading{
     font-family: Preahvihear;
     color: rgba(235, 21, 81, 1);
     font-size: 3vw;
 }
+
 .input{
     border: none;
     background-color: rgba(227, 227, 227, 1);
     border-radius: 0.5vw;
     height: 5vw;
 }
+
 .input-container{
     display: flex;
     flex-direction: column;
     width: 40%;
     margin: 2vw;
 }
+
 .flex-all-inputs-container{
     display: flex;
     flex-wrap: wrap;
@@ -181,6 +189,7 @@ body{
     font-size: 1.5vw;
     font-weight: bold;
 }
+
 .input-message{
     border: none;
     background-color: rgba(227, 227, 227, 1);
@@ -188,17 +197,21 @@ body{
     width: 100%;
     border-radius: 0.5vw;
 }
+
 .input-container-message{
     width: 88%;
     margin: 2vw;
 }
+
 .contactus-main-container{
     display: flex;
 }
+
 .button-container{
     display: flex;
     justify-content: center;
 }
+
 .button{
     background: linear-gradient(to right,rgba(135, 207, 58, 1),rgba(45, 204, 128, 1));
     border: none;
@@ -207,13 +220,15 @@ body{
     width: 20%;
     border-radius: 0.5vw;
 }
+
 .contact-main-container{
     width: 50%;
     margin-left: 4vw;
 }
+
 .blue-container{
     background-color: rgba(3, 83, 146, 1);
-    width: 60%;
+    width: 70%;
     border-radius: 1vw;
     text-align: center;
     color: white;
@@ -223,6 +238,7 @@ body{
     position: relative;
     margin: 1vw;
     margin-bottom: 2vw;
+    margin-top: 3vw;
 }
 
 .icon{
@@ -237,6 +253,7 @@ body{
     top: -10%;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
 }
+
 .location-icon{
     background-color: white;
     color: red;
@@ -249,12 +266,233 @@ body{
     top: -10%;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
 }
-.map-main-container{
-    width: 50%;
-    margin-right: 5vw;
-    margin-top: 3vw;
 
+.map-main-container{
+    width: 45%;
+    margin-right: 6vw;
+    margin-top: 3vw;
 }
+
 .map-contact-main-container{
     display: flex;
+}
+
+.map{
+    border-radius: 1vw;
+}
+
+
+
+
+.footer-section-position{
+    background:url("images/footerbackground.png");
+    background-size: cover;
+    position: relative;
+}
+.footer-section{
+    position: relative;
+    overflow-x: hidden;
+    height: max-content;
+}
+.footer-copyright{
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.telegram-image{
+    height: 5vw;
+    position: absolute;
+    top: 4%;
+    left: 0;
+}
+.cloud1-image{
+    height: 5vw;
+    left: 20%;
+    top: 17%;
+    position: absolute;
+}
+.sun-image{
+    height: 5vw;
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    z-index: 8;
+}
+.rocket-image{
+    height: 8vw;
+    position: absolute;
+    right: 0%;
+    top: 30%;
+}
+.cloud2-image{
+    height: 5vw;
+    position: absolute;
+    right: -5%;
+}
+.footer-logo-image{
+    height: 10vw;
+}
+.footer-section2{
+    margin-top: 9vw;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-section2 h1{
+    color: #b10505;
+    font-size: 2vw;
+}
+.footer-logo{
+    width: 23%;
+    position: relative;
+    z-index: 3;
+}
+.footer-logo p{
+    font-size: 1.6vw;
+    color: #ffffff;
+}
+.footer-pages{
+    width: 23%;
+    position: relative;
+    z-index: 3;
+}
+.footer-pages p{
+    font-size: 1.4vw;
+    color: #ffffff;
+    margin: 0;
+    line-height: 2.5vw;
+}
+.footer-pages-2{
+    width: 23%;
+    position: relative;
+    z-index: 3;
+}
+.footer-pages-2 p{
+    font-size: 1.4vw;
+    color: #ffffff;
+    margin: 0;
+    line-height: 2.5vw;
+}
+.footer-contact-us{
+    width: 23%;
+    z-index: 3;
+    position: relative;
+}
+.footer-contact-us p{
+    font-size: 1.4vw;
+    color: #ffffff;
+    
+}
+
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 2vw;
+    justify-content: center;
+}
+.fa-facebook{
+    font-size: 2.2vw;
+    color: #1877f2;
+}
+.fa-twitter{
+    font-size: 2.2vw;
+    color: #1da1f2;
+}
+.fa-instagram{
+    font-size: 2.2vw;
+    color: #e4405f;
+}
+.twitter{
+    height: 2vw;
+}
+.social-icons li {
+    margin-right: 1vw;
+    background-color: #fff;
+    padding: 1vw;
+    text-align: center;
+    border-radius: 200%;
+    height:2vw;
+    width: 2vw;
+}
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+}
+.facebook-icon {
+    color: #1877f2;
+}
+.twitter-icon {
+    color: #1da1f2;
+}
+.instagram-icon {
+    color: #e4405f;
+}
+
+
+.footer-section-each{
+    width: 30%;
+}
+.footer-hr-dotted{
+    border:0.1vw dashed;
+    color: #fff;
+}
+.footer-child-images{
+    height: 10vw;
+}
+.footer-section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pencil-image{
+    height: 3vw;
+}
+.scale-image{
+    height: 3vw;
+    right: 0;
+}
+.flex-pencil-scale{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-squre1{
+    height: 15vw;
+    background-color: #ffffff;
+    width: 30vw;
+    border-radius: 50%;
+    position: absolute;
+    top: -23%;
+    left: -3%;
+}
+.footer-squre2 {
+    height: 15vw;
+    background-color: rgba(32, 123, 142, 1);
+    width: 40vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 24.5%;
+    top: -8.9%;
+    z-index: 7;
+}
+.footer-squre3{
+    height: 15vw;
+    background-color: #ffffff;
+    width: 30vw;
+    border-radius: 50%;
+    position: absolute;
+    top: -25%;
+    right: 7%;
+}
+.footer-squre4{
+    height: 4vw;
+    background-color: rgba(32, 123, 142, 1);
+    width: 10vw;
+    border-radius: 50%;
+    position: absolute;
+    top: -1%;
+    right:0.8%;
 }

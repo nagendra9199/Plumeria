@@ -277,6 +277,7 @@ body{
 }
 .admission-form-flex-container{
     position: relative;
+    margin-bottom: 10vw;
 }
 .admission-form-side-container{
     width:45%;
@@ -495,7 +496,7 @@ body{
     padding-right: 1.1vw;
     border-radius: 50%;
 }
-.twitter{
+.twitter{ 
     height: 4vw;
     background-color: white;
     padding: 1vw;

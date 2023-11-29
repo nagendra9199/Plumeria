@@ -370,6 +370,7 @@ body{
 
 
 .footer-section-position{
+    padding-top: 6vw;
     background:url("images/footerbackground.png");
     background-size: cover;
     position: relative;
@@ -418,7 +419,7 @@ body{
     height: 10vw;
 }
 .footer-section2{
-    margin-top: 9vw;
+    margin-top: 13vw;
     display: flex;
     justify-content: space-around;
 }
@@ -496,8 +497,8 @@ body{
     padding-right: 1.1vw;
     border-radius: 50%;
 }
-.twitter{ 
-    height: 4vw;
+.twitter{
+    height: 2vw;
     background-color: white;
     padding: 1vw;
     border-radius: 50%;
@@ -529,6 +530,7 @@ body{
 }
 .footer-child-images{
     height: 10vw;
+    margin-left: 2.5vw;
 }
 .footer-section3{
     display: flex;

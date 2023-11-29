@@ -75,40 +75,62 @@
                 <div class="gallery-flex-container1">
                     <div class="gallery-left-container">
                         <div class="gallery-left-container1">
-                            <a href="images/gal20.jpeg"><img src="images/gal20.jpeg" class="gallery-image"/></a>
+                            <img src="images/gal20.jpeg" class="gallery-image" onclick="openLightbox('images/gal20.jpeg')"/>
                         </div>
                         <div class="gallery-left-container2">
-                            <a href="images/gal18.jpeg"><img src="images/gal18.jpeg" class="gallery-image"/></a>
+                            <img src="images/gal18.jpeg" class="gallery-image" onclick="openLightbox('images/gal18.jpeg')"/>
                         </div>
                     </div>
                     <div class="gallery-middle-container">
-                        <a href="images/gal23.jpeg"><img src="images/gal23.jpeg" class="gallery-image"/></a>
+                        <img src="images/gal23.jpeg" class="gallery-image" onclick="openLightbox('images/gal23.jpeg')"/>
                     </div>
                     <div class="gallery-right-container">
                         <div class="gallery-right-container1">
-                            <a href="images/gal35.jpeg"><img src="images/gal35.jpeg" class="gallery-image"/></a>
+                            <img src="images/gal35.jpeg" class="gallery-image" onclick="openLightbox('images/gal35.jpeg')"/>
                         </div>
                         <div class="gallery-right-container2">
-                            <a href="images/gal42.jpeg"><img src="images/gal42.jpeg" class="gallery-image"/></a>
+                            <img src="images/gal42.jpeg" class="gallery-image" onclick="openLightbox('images/gal42.jpeg')"/>
                         </div>
                     </div>
                 </div>
 
                 <div class="gallery-flex-container2">
                     <div class="gallery-left-bottom-container">
-                        <img src="images/gal26.jpeg" class="gallery-image"/>
+                        <img src="images/gal26.jpeg" class="gallery-image" onclick="openLightbox('images/gal26.jpeg')"/>
                     </div>
                     <div class="gallery-middle-bottom-container">
-                        <img src="images/gal33.jpeg" class="gallery-image"/>
+                        <img src="images/gal33.jpeg" class="gallery-image" onclick="openLightbox('images/gal33.jpeg')"/>
                     </div>
                     <div class="gallery-right-bottom-container">
-                        <img src="images/gal34.jpeg" class="gallery-image"/>
+                        <img src="images/gal34.jpeg" class="gallery-image" onclick="openLightbox('images/gal34.jpeg')"/>
+                    </div>
+                    <div class="gallery-right-bottom-container">
+                        <img src="images/gal37.jpeg" class="gallery-image" onclick="openLightbox('images/gal37.jpeg')"/>
+                    </div>
+                    <div class="gallery-right-bottom-container">
+                        <img src="images/gal44.jpeg" class="gallery-image" onclick="openLightbox('images/gal44.jpeg')"/>
+                    </div>
+                    <div class="gallery-right-bottom-container">
+                        <img src="images/gal54.jpeg" class="gallery-image" onclick="openLightbox('images/gal54.jpeg')"/>
                     </div>
                 </div>
                 <img src="images/galleryleafblue.png" class="gallery-blueleaf"/>
                 <img src="images/galleryplant.png" class="gallery-plant"/>
                 <img src="images/galleryanimal.png" class="gallery-animal"/>
             </div>
+
+
+
+
+
+            <div class="lightbox" onclick="closeLightbox()">
+                <span class="close-btn">&times;</span>
+                <img id="lightbox-image">
+            </div>
+            
+
+
+
 
             <div class="videos-container">
                 <div class="main-video-container">
@@ -256,6 +278,25 @@
                 navbar.classList.remove("navbar-fixed");
             }
         });
+
+
+
+
+        function openLightbox(imageSrc) {
+            const lightbox = document.querySelector('.lightbox');
+            const lightboxImage = document.getElementById('lightbox-image');
+
+            lightboxImage.src = imageSrc;
+            lightbox.style.display = 'flex';
+        }
+
+        function closeLightbox() {
+            const lightbox = document.querySelector('.lightbox');
+            lightbox.style.display = 'none';
+        }
+
+
+
 
         function playPause() {
             var video = document.querySelector('.main-video');

@@ -248,7 +248,7 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    
+    animation: scaleAndFade 0.5s ease-in-out;
 }
 .pre-nursery-main-container{
     display: flex;
@@ -272,6 +272,7 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    animation: scaleAndFade 0.5s ease-in-out;
 }
 .nursery-main-container{
     display: flex;
@@ -285,6 +286,50 @@ body{
     color: white;
     padding: 1vw;
 }
+.kindergarten-heading{
+    font-size: 2vw;
+    color: orange;
+    font-weight: bold;
+    text-decoration: overline;
+}
+.kindergarten-1-container{
+    margin-left:  4vw;
+}
+.kindergarten-content-container{
+    width: 40%;
+    background-color: #e4405f;
+    padding: 1vw;
+}
+.kindergarten-content-container p{
+    font-size: 1.8vw;
+    color: white;
+}
+.kindergarten-image-container{
+    width: 55%;
+}
+.kindergarten-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: scaleAndFade 0.5s ease-in-out;
+}
+@keyframes scaleAndFade {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.kindergarten-main-container{
+    display: flex;
+}
+
+
+
+
 
 
 

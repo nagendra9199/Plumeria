@@ -257,7 +257,6 @@ body{
 
 .nursery-container{
     margin-left: 4vw;
-    width: 100% !important;
 }
 .nursery-heading{
     font-size: 2vw;
@@ -266,7 +265,7 @@ body{
     text-decoration: overline;
 }
 .nursery-image-container{
-    width: 38%;
+    width: 40%;
     height: 35.29vw;
 }
 .nursery-container img {
@@ -278,7 +277,7 @@ body{
     display: flex;
 }
 .nursery-content-container{
-    width: 53%;
+    width: 55%;
     background-color: #e4405f;
 }
 .nursery-content-container p{

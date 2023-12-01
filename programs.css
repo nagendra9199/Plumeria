@@ -16,13 +16,13 @@ body{
     width: 55%;
     margin: 0;
     margin-top: 2vw;
-    margin-left: 5vw;
+    margin-left: 4vw;
 }
 .title-school{
     font-size: 2vw;
     font-family: 'preahvihear';
     min-width: 70%;
-    margin-top: 3.5vw;
+    margin-top: 3.7vw;
 }
 .call-head{
     font-weight: bold;
@@ -205,6 +205,7 @@ body{
     background-color: #b10505;
     color: white;
     padding: 1vw;
+    font-family: cursive;
 }
 .programs-anchor-elements{
     display: flex;
@@ -221,6 +222,15 @@ body{
     background-color: rgb(5, 5, 71);
 }
 
+.pre-nursery-container{
+    margin-left: 4vw;
+}
+.pre-nursery-heading{
+    font-size: 2vw;
+    color: orange;
+    font-weight: bold;
+    text-decoration: overline;
+}
 
 
 

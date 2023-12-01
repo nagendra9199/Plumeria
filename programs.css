@@ -149,202 +149,77 @@ body{
     padding-bottom: 12vw;
 }
 
-.abcde {
-    text-align: center;
-    font-size: 3vw;
-    font-weight:bolder;
-}
 
-.a {
-    color: rgba(196, 155, 39, 1);
-    transform: rotate(0deg);
-}
 
-.b {
-    color: rgba(255, 140, 112, 1);
-    transform: rotate(-20deg);
-}
 
-.c {
-    color: rgba(196, 155, 39, 1);
-    transform: rotate(20deg);
-}
-
-.d {
-    color: rgba(255, 109, 174, 1);
-    transform: rotate(-20deg);
-}
-
-.e {
-    color: rgba(91, 217, 160, 1);
-    transform: rotate(20deg);
-}
-.programs-slide-background-container {
-    height: 35vw;
-    position: relative;
-  }
-.programs-background-image{
-    height: 35vw;
-    position: relative;
-}
-.mySlides {
-    display: none;
-    margin-bottom: 6vw;
-}
-.w3-button{
-    background-color: #ffffff !important;
-    border-radius: 100%;
-    color: black !important;
-    font-size: 1.5vw;
-    padding: 0vw 0.8vw !important;
-    position: absolute !important;
-    top: 50% !important;
-}
-.slide-container{
-    width: 85% !important;
-    position: relative;
+.letters-image-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vw;
 }
 .letters-image{
-    height: 4vw;
-    margin-bottom: 2vw;
-}
-.total-flex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    z-index: 10;
-}
-.right-button{
-    position: absolute !important;
-    right: 3% !important;
-}
-.left-button{
-    position: absolute !important;
-    left: 1% !important;
-}
-.book{
     height: 5vw;
-    position: absolute;
-    top: 10%;
-    left: 5%;
 }
-.program-image-child{
-    height: 22vw;
-    position: absolute;
-    z-index: 10;
-    object-fit: cover;
-    width: 100%;
+
+.our-programs-container{
+    width: 45%;
+    margin-left: 4vw;
 }
-.program-image-child-container{
-    height: 22vw;
-    width: 30%;
-    background-color: transparent;
-    position: absolute;
-    top: 18%;
-    left: 6%;
-}
-.yellow-circle-border{
-    height: 12vw;
-    width: 15%;
-    border-radius: 100%;
-    border:6px solid rgba(254, 227, 112, 1);
-    position: absolute;
-    bottom: 15%;
-    left: 20%;
-}
-.programs-shape-content{
-    width: 50%;
-}
-.programs-slides-head{
-    color: rgba(235, 21, 81, 1);
-    font-size: 2vw;
+.our-programs-container h1{
+    font-size: 3vw;
     font-weight: bold;
+    color: rgb(6, 6, 70);
 }
-.programs-slides-para{
-    font-size: 1.4vw;
-    color: #ffffff;
-}
-.programs-shape-content{
-    position: absolute;
-    top: 20%;
-    left: 45%;
-    transform: rotate(1deg);
-}
-.child-image-playing{
-    height: 7vw;
-    position: absolute;
-    right: 10%;
-    bottom: 5%;
-}
-.sun-image{
-    height: 5vw;
-    position: absolute !important;
-    top: 18%;
-    right:-30% !important;
-}
-.globe-image{
-    height: 8vw;
-    position: absolute;
-    right: -1%;
-    top: 20%;
-    z-index: -10;
-}
-.red-half-circle{
-    height: 15vw;
-    width: 18%;
-    border-radius: 100%;
-    border:5px solid rgba(241, 90, 61, 1);
-    border-left-color: transparent;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-    transform: rotate(-50deg);
-    position: absolute;
-    top: -10%;
-    left: -5%;
-}
-.blue-half-circle{
-    height: 15vw;
-    width: 18%;
-    border-radius: 100%;
-    border:5px solid rgba(38, 166, 161, 1);
-    border-left-color: transparent;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-    transform: rotate(25deg);
-    position: absolute;
-    top: -3%;
-    right: 5%;
-}
-.green-half-circle{
-    height: 15vw;
-    width: 18%;
-    border-radius: 100%;
-    border:5px solid rgba(121, 195, 60, 1);
-    border-left-color: transparent;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-    transform: rotate(200deg);
-    position: absolute;
-    bottom: -15%;
-    left: 0%;
-}
-.orange-half-circle{
-    height: 15vw;
-    width: 18%;
-    border-radius: 100%;
-    border:5px solid rgba(255, 170, 35, 1);
-    border-left-color: transparent;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-    transform: rotate(150deg);
-    position: absolute;
-    bottom: -15%;
-    right: 0%;
+.our-programs-container p{
+    font-size: 1.5vw;
 }
 
+.our-programs-line{
+    background-color: rgb(6, 6, 70);
+    border: none;
+    height: 1vw;
+}
+.our-programs-image{
+    height:40vw;
+    width: 40vw;
+    background-color: #b10505;
+    margin-right: 4vw;
+}
+.our-programs-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    color: white;
+}
+.our-programs-main-container{
+    display: flex;
+    justify-content: space-between;
+}
+.pre-school-programs-heading{
+    font-size: 2vw;
+    text-align: center;
+}
+.programs-anchor-elements h1, a{
+    font-size: 2vw;
+    text-decoration: none;
+    background-color: #b10505;
+    color: white;
+    padding: 1vw;
+}
+.programs-anchor-elements{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+.programs-anchor-elements h1 {
+    transition: color 0.8s ease, background-color 0.8s ease; /* Adding transition for color change */
+}
 
-
+.programs-anchor-elements h1:hover {
+    color: rgb(250, 250, 250);
+    background-color: rgb(5, 5, 71);
+}
 
 
 
@@ -480,7 +355,7 @@ body{
     border-radius: 50%;
 }
 .twitter{
-    height: 2vw;
+    height: 4vw;
     background-color: white;
     padding: 1vw;
     border-radius: 50%;

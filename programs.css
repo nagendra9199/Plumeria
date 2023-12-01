@@ -175,7 +175,7 @@ body{
 }
 
 .our-programs-line{
-    background-color: rgb(6, 6, 70);
+    background-color:#e4405f;
     border: none;
     height: 1vw;
 }
@@ -226,6 +226,7 @@ body{
     margin-left: 4vw;
 }
 .pre-nursery-heading{
+    margin-top: 3vw;
     font-size: 2vw;
     color: orange;
     font-weight: bold;
@@ -248,7 +249,7 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    animation: scaleAndFade 0.5s ease-in-out;
+    animation: scaleAndFade 1.5s ease-in-out;
 }
 .pre-nursery-main-container{
     display: flex;
@@ -259,6 +260,7 @@ body{
     margin-left: 4vw;
 }
 .nursery-heading{
+    margin-top: 5vw;
     font-size: 2vw;
     color: orange;
     font-weight: bold;
@@ -272,8 +274,9 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    animation: scaleAndFade 0.5s ease-in-out;
+    animation: scaleAndFade 1.5s ease-in-out;
 }
+
 .nursery-main-container{
     display: flex;
 }
@@ -287,12 +290,13 @@ body{
     padding: 1vw;
 }
 .kindergarten-heading{
+    margin-top: 5vw;
     font-size: 2vw;
     color: orange;
     font-weight: bold;
     text-decoration: overline;
 }
-.kindergarten-1-container{
+.kindergarten-container{
     margin-left:  4vw;
 }
 .kindergarten-content-container{
@@ -311,7 +315,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    animation: scaleAndFade 0.5s ease-in-out;
+    animation: scaleAndFade 1.5s ease-in-out;
 }
 @keyframes scaleAndFade {
     0% {

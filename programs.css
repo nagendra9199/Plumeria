@@ -339,7 +339,6 @@ body{
 
 
 .footer-section-position{
-    margin-top: 6vw;
     padding-top: 6vw;
     background:url("images/footerbackground.png");
     background-size: cover;
@@ -415,7 +414,7 @@ body{
     font-size: 1.4vw;
     color: #ffffff;
     margin: 0;
-    line-height: 0vw;
+    line-height: 2.5vw;
 }
 .footer-pages-2{
     width: 23%;

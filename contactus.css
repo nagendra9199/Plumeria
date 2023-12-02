@@ -153,7 +153,22 @@ body{
 
 .contactus-main-container-part1{
     width: 50%;
+    margin-left: 5vw;
 }
+
+
+
+.contactus-image-container{
+    width: 90%;
+    height: 70%;
+    margin-top: 12vw;
+}
+.contactus-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .contactus-main-container-part2{
     width: 50%;
@@ -356,6 +371,9 @@ body{
     position: relative;
     z-index: 3;
 }
+.footer-pages a{
+    text-decoration: none;
+}
 .footer-pages p{
     font-size: 1.4vw;
     color: #ffffff;
@@ -413,7 +431,7 @@ body{
     border-radius: 50%;
 }
 .twitter{
-    height: 2vw;
+    height: 4vw;
     background-color: white;
     padding: 1vw;
     border-radius: 50%;

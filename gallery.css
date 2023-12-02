@@ -589,6 +589,9 @@ body{
     margin: 0;
     line-height: 2.5vw;
 }
+.footer-pages a{
+    text-decoration: none;
+}
 .footer-pages-2{
     width: 23%;
     position: relative;

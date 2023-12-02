@@ -337,6 +337,9 @@ body{
     margin: 0;
     line-height: 2.5vw;
 }
+.footer-pages a{
+    text-decoration: none;
+}
 .footer-pages-2{
     width: 23%;
     position: relative;
@@ -388,14 +391,14 @@ body{
     border-radius: 50%;
 }
 .twitter{
-    height: 2vw;
+    height: 4vw;
     background-color: white;
     padding: 1vw;
     border-radius: 50%;
 }
 .social-icons li {
     margin-right: 1vw;
-}
+} 
 .social-icons a {
     text-decoration: none;
     color: #333;

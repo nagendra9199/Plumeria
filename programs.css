@@ -1,5 +1,5 @@
 body{
-    font-family: 'Nunito sans';
+    font-family: 'Ibarra Real Nova', serif !important;
     max-width: 100%;
 }
 .header{
@@ -268,7 +268,7 @@ body{
 }
 .nursery-image-container{
     width: 40%;
-    height: 35.29vw;
+    height: 35.5vw;
 }
 .nursery-container img {
     height: 100%;
@@ -282,13 +282,38 @@ body{
 }
 .nursery-content-container{
     width: 55%;
-    background-color: #e4405f;
+    background-color: #B3A492;
 }
 .nursery-content-container p{
     font-size: 1.8vw;
     color: white;
     padding: 1vw;
 }
+.nursery-key-areas{
+    font-size: 1.5vw;
+    text-align: center;
+    color: red;
+    text-decoration: line-through;
+}
+.nursery-key-areas-container p{
+    font-size: 1.5vw;
+    width: 30%;
+    color: #fff;
+}
+.nursery-key-areas-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.308);
+    padding: 2vw;
+}
+.nursery-key-events-background{
+    background-image: url("images/nursery-key-events-image2.jpg");
+    background-size: cover;
+    width: 95%;
+    padding-top: 1vw;
+}
+
 .kindergarten-heading{
     margin-top: 5vw;
     font-size: 2vw;
@@ -300,8 +325,8 @@ body{
     margin-left:  4vw;
 }
 .kindergarten-content-container{
-    width: 40%;
-    background-color: #e4405f;
+    width: 50%;
+    background-color: #a39fa0dc;
     padding: 1vw;
 }
 .kindergarten-content-container p{
@@ -309,7 +334,7 @@ body{
     color: white;
 }
 .kindergarten-image-container{
-    width: 55%;
+    width: 45%;
 }
 .kindergarten-image-container img{
     width: 100%;

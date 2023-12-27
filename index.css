@@ -757,3 +757,6 @@ body{
     top: -1%;
     right:0.8%;
 }
+.call-icon-footer{
+    transform: rotate(90deg);
+}

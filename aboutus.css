@@ -174,7 +174,7 @@ body{
 .vision-container p{
     color: rgb(68, 68, 68);
     line-height: 2.5vw;
-    font-size: 1.6vw;
+    font-size: 1.2vw;
 }
 .vision-image{
     width: 40%;
@@ -207,7 +207,7 @@ body{
 .mission-container p{
     color: rgb(49, 49, 49);
     line-height: 2.5vw;
-    font-size: 1.6vw;
+    font-size: 1.2vw;
 }
 .mission-image{
     width: 40%;
@@ -229,7 +229,7 @@ body{
     }
 }
 .about-remaining p{
-    font-size: 1.8vw;
+    font-size: 1.3vw;
     color: #b10505;
 }
 .about-remaining{

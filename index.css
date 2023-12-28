@@ -157,15 +157,15 @@
     max-width: 55%;
 }
 .content-main-page{
-    font-size: 1.1vw;
-    line-height: 2.8vw;
+    font-size: 1.3vw;
+    line-height: 2.2vw;
     color: white;
 }
 .main-circle-container{
     background-color: rgba(255,277,179,1);
     border-radius: 100%;
     min-height: 30vw;
-    min-width: 100%;
+    width: 85%;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -173,7 +173,7 @@
     z-index: 10;
 }
 .child-image-main-image{
-    max-height: 45vw;
+    max-height: 42vw;
     position: relative;
     z-index: 5;
 }

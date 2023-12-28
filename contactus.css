@@ -1,5 +1,5 @@
 body{
-    font-family: 'Nunito sans';
+    font-family:Verdana, Geneva, Tahoma !important;
     max-width: 100%;
 }
 .header{
@@ -346,7 +346,9 @@ body{
     right: -5%;
 }
 .footer-logo-image{
-    height: 10vw;
+    height: 100%;
+    width: 100%;
+    border-radius: 200%;
 }
 .footer-section2{
     margin-top: 13vw;
@@ -358,7 +360,9 @@ body{
     font-size: 2vw;
 }
 .footer-logo{
-    width: 23%;
+    width: 10%;
+    height: 10vw;
+    border-radius: 100%;
     position: relative;
     z-index: 3;
 }

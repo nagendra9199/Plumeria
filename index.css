@@ -1,7 +1,17 @@
-body{
-    font-family: 'Ibarra Real Nova', serif;
-    max-width: 100%;
-}
+:root {
+    --bs-font-sans-serif: 'YourFont', sans-serif;
+  }
+  
+  body {
+    font-family: var(--bs-font-sans-serif) !important;
+  }
+  @font-face {
+    font-family: 'YourFont';
+    src: url('path/to/your-font.woff2') format('woff2'),
+         url('path/to/your-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
 .header{
     width: 100%;
     top: 0;
@@ -138,7 +148,7 @@ body{
 }
 .content-main-page{
     font-size: 1.3vw;
-    line-height: 2vw;
+    line-height: 2.8vw;
 }
 .main-circle-container{
     background-color: rgba(255,277,179,1);
@@ -270,6 +280,7 @@ body{
 .about-content {
     width: 90%;
     color: rgb(92, 92, 90);
+    line-height: 2.8vw;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .section2-flex-container{
@@ -416,10 +427,11 @@ body{
 }
 .programs-content-main{
     border: solid rgb(0, 102, 128);
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     padding: 0.5vw;
     height: 25vw;
     overflow-y: scroll;
+    line-height: 2.5vw;
 }
 .programs-content-main::-webkit-scrollbar {
     display: none;

@@ -2,7 +2,7 @@
     --bs-font-sans-serif: 'YourFont', sans-serif;
   }
   
-  body {
+  body { 
     font-family: var(--bs-font-sans-serif) !important;
   }
   @font-face {

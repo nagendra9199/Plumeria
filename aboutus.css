@@ -1,5 +1,5 @@
 body{
-    font-family: 'Nunito sans';
+    font-family:Verdana, Geneva, Tahoma !important;
     max-width: 100%;
 }
 .header{
@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction: row;
     position: relative;
-    width:38%;
+    width:42%;
 }
 .logo-header-image{
     width: 55%;
@@ -168,11 +168,11 @@ body{
     width: 40%;
 }
 .vision-container h1{
-    color: green;
+    color: rgb(128, 83, 0);
     font-size: 3vw;
 }
 .vision-container p{
-    color: blue;
+    color: rgb(68, 68, 68);
     line-height: 2.5vw;
     font-size: 1.6vw;
 }
@@ -201,11 +201,11 @@ body{
     width: 40%;
 }
 .mission-container h1{
-    color: green;
+    color: rgb(128, 83, 0);
     font-size: 3vw;
 }
 .mission-container p{
-    color: blue;
+    color: rgb(49, 49, 49);
     line-height: 2.5vw;
     font-size: 1.6vw;
 }
@@ -306,7 +306,9 @@ body{
     right: -5%;
 }
 .footer-logo-image{
-    height: 10vw;
+    height: 100%;
+    width: 100%;
+    border-radius: 200%;
 }
 .footer-section2{
     margin-top: 13vw;
@@ -318,7 +320,9 @@ body{
     font-size: 2vw;
 }
 .footer-logo{
-    width: 23%;
+    width: 10%;
+    height: 10vw;
+    border-radius: 100%;
     position: relative;
     z-index: 3;
 }

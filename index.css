@@ -13,16 +13,12 @@
     font-style: normal;
   }
 
-.background-container{
-    background-image: url('images/programs_background2.png');
-    background-size: cover;
-    width: 100%;
-}
+
 .header{
     width: 100%;
     top: 0;
     left: 0;
-    background-color: transparent;
+    background-color: white;
 }
 .logo-header{
     display: flex;
@@ -48,11 +44,9 @@
 }
 .call-container p{
     font-size: 1vw;
-    color: white;
 }
 .address-container p{
     font-size: 1vw;
-    color: white;
 }
 .call-icon{
     rotate: -45deg;
@@ -83,7 +77,7 @@
     font-size: 1.5vw;
 }
 .header-line{
-    background-color: white;
+    background-color: rgba(25, 25, 25, 1);
     height: 0.1vw;
     border: none;
     width: 90%;
@@ -93,7 +87,7 @@
 }
 .navbar-list-items li{
     list-style-type: none;
-    color: white;
+    color: black;
     font-weight: bold;
     margin-left: 5vw;
 }
@@ -102,19 +96,20 @@
     justify-content: flex-end;
 }
 .navbar-header{
+    min-width: 100%;
+    max-width: 100%;
     padding-right: 4vw;
-    width: 100% !important;
     right: 0;
     position: absolute;
     z-index: 80;
-    background-color: rgba(153, 152, 152, 0.473);
+    background-color: #fff;
 }
 .navbar-fixed {
     position: fixed;
     top: 0;
 }
 .space{
-    height: 5vw;
+    height: 11vw;
 }
 
 
@@ -145,27 +140,24 @@
 }
 .heading-homepage{
     font-size: 2vw;
-    color: white;
     font-weight: 650;
 }
 .content-home-page-container{
     max-width: 40%;
     margin-left: 2vw;
-    margin-top: 2vw;
 }
 .home-page-image-side{
     max-width: 55%;
 }
 .content-main-page{
     font-size: 1.3vw;
-    line-height: 2.2vw;
-    color: white;
+    line-height: 2.8vw;
 }
 .main-circle-container{
     background-color: rgba(255,277,179,1);
     border-radius: 100%;
     min-height: 30vw;
-    width: 85%;
+    min-width: 100%;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -173,7 +165,7 @@
     z-index: 10;
 }
 .child-image-main-image{
-    max-height: 42vw;
+    max-height: 47vw;
     position: relative;
     z-index: 5;
 }
@@ -292,10 +284,12 @@
     width: 90%;
     color: rgb(92, 92, 90);
     line-height: 2.8vw;
-    font-family:Italic;
 }
 .about-content2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 1.5vw !important;
+    color: rgba(235, 21, 81, 1);
 }
 .section2-flex-container{
     display: flex;
@@ -516,6 +510,8 @@
     background-color: #ffffff;
     height: 50%;
     margin: 1vw;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgb(204, 204, 204);
 }
 .gal-image1-container img{
     width: 100%;
@@ -533,6 +529,8 @@
     background-color: #ffffff;
     margin-top: 3vw;
     height: 40%;
+    box-shadow: 1px 1px 10px rgb(199, 199, 199);
+    border-radius: 20px;
 }
 .gal-image2-container img{
     width: 100%;

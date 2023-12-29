@@ -1,0 +1,687 @@
+body{
+    font-family: 'Nunito sans';
+    max-width: 100%;
+}
+.header{
+    background-color: transparent;
+    margin-bottom: 0.5vw;
+}
+.logo-header{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width:38%;
+}
+.logo-header-image{
+    width: 55%;
+    margin: 0;
+    margin-top: 2vw;
+    margin-left: 5vw;
+}
+.title-school{
+    font-size: 2vw;
+    font-family: 'preahvihear';
+    min-width: 70%;
+    margin-top: 3.5vw;
+    color: red !important;
+    margin-left: 1vw;
+}
+.call-head{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.call-container p{
+    font-size: 1vw;
+    color: white;
+}
+.address-container p{
+    font-size: 1vw;
+    color: white;
+}
+.call-icon{
+    rotate: -45deg;
+    color: rgb(226, 6, 6);
+}
+.address-icon{
+    color: rgb(214, 9, 9);
+}
+.address-header-container{
+    display: flex;
+    margin-right: 4.5vw;
+    justify-content: flex-end;
+}
+.address-head{
+    font-weight: bold;
+    color: #fff;
+}
+.head-logo-address{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.address-container{
+    margin-left: 2vw;
+    width: 30%;
+}
+.call-container{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.header-line{
+    background-color: white;
+    height: 1.5px;
+    width: 90%;
+    border: 2% white;
+    margin: 0;
+}
+.navbar-list-items a{
+    text-decoration: none;
+}
+.navbar-list-items li{
+    list-style-type: none;
+    color: rgba(255, 245, 0, 1);
+    margin-left: 5vw;
+}
+.navbar-list-items{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4vw;
+}
+.navbar-header{
+    min-width: 100%;
+    max-width: 100%;
+    margin-right: 1.8vw;
+
+}
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    z-index: 20;
+}
+
+
+
+
+
+.navbar-list-items li {
+    font-size: 1.5vw;
+    position: relative;
+    transition: all 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.navbar-list-items li:after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  display: block;
+  transition: all 0.7s ease;
+  bottom: -10%;
+}
+.navbar-list-items li:hover::after {
+  width: 100%;
+  height: 3px;
+  background-color: #b10505;
+}
+
+.programs-background-container{
+    background-image: url('images/programs_background2.png');
+    background-size: cover;
+    position: relative;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.programs-heading{
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+}
+.programs-sub-head{
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+}
+.programs-sub-head2{
+    color: rgba(255, 245, 0, 1);
+}
+.programs-heading-container{
+    margin-top: 10vw;
+    padding-bottom: 12vw;
+}
+
+.abcde {
+    text-align: center;
+    font-size: 3vw;
+    font-weight:bolder;
+}
+
+.a {
+    color: rgba(196, 155, 39, 1);
+    transform: rotate(0deg);
+}
+
+.b {
+    color: rgba(255, 140, 112, 1);
+    transform: rotate(-20deg);
+}
+
+.c {
+    color: rgba(196, 155, 39, 1);
+    transform: rotate(20deg);
+}
+
+.d {
+    color: rgba(255, 109, 174, 1);
+    transform: rotate(-20deg);
+}
+
+.e {
+    color: rgba(91, 217, 160, 1);
+    transform: rotate(20deg);
+}
+.programs-slide-background-container {
+    height: 35vw;
+    position: relative;
+  }
+.programs-background-image{
+    height: 35vw;
+    position: relative;
+}
+.mySlides {
+    display: none;
+    margin-bottom: 6vw;
+}
+.w3-button{
+    background-color: #ffffff !important;
+    border-radius: 100%;
+    color: black !important;
+    font-size: 1.5vw;
+    padding: 0vw 0.8vw !important;
+    position: absolute !important;
+    top: 50% !important;
+}
+.slide-container{
+    width: 85% !important;
+    position: relative;
+}
+.letters-image{
+    height: 4vw;
+    margin-bottom: 2vw;
+}
+.total-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.right-button{
+    position: absolute !important;
+    right: 3% !important;
+}
+.left-button{
+    position: absolute !important;
+    left: 1% !important;
+}
+.book{
+    height: 5vw;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.program-image-child{
+    height: 22vw;
+    position: absolute;
+    z-index: 10;
+    object-fit: cover;
+    width: 100%;
+}
+.program-image-child-container{
+    height: 22vw;
+    width: 30%;
+    background-color: transparent;
+    position: absolute;
+    top: 18%;
+    left: 6%;
+}
+.yellow-circle-border{
+    height: 12vw;
+    width: 15%;
+    border-radius: 100%;
+    border:6px solid rgba(254, 227, 112, 1);
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
+}
+.programs-shape-content{
+    width: 50%;
+}
+.programs-slides-head{
+    color: rgba(235, 21, 81, 1);
+    font-size: 2vw;
+    font-weight: bold;
+}
+.programs-slides-para{
+    font-size: 1.4vw;
+    color: #ffffff;
+}
+.programs-shape-content{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: rotate(1deg);
+}
+.child-image-playing{
+    height: 7vw;
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+}
+.sun-image{
+    height: 5vw;
+    position: absolute !important;
+    top: 18%;
+    right:-30% !important;
+}
+.globe-image{
+    height: 8vw;
+    position: absolute;
+    right: -1%;
+    top: 20%;
+    z-index: -10;
+}
+.red-half-circle{
+    height: 15vw;
+    width: 18%;
+    border-radius: 100%;
+    border:5px solid rgba(241, 90, 61, 1);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(-50deg);
+    position: absolute;
+    top: -10%;
+    left: -5%;
+}
+.blue-half-circle{
+    height: 15vw;
+    width: 18%;
+    border-radius: 100%;
+    border:5px solid rgba(38, 166, 161, 1);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(25deg);
+    position: absolute;
+    top: -3%;
+    right: 5%;
+}
+.green-half-circle{
+    height: 15vw;
+    width: 18%;
+    border-radius: 100%;
+    border:5px solid rgba(121, 195, 60, 1);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(200deg);
+    position: absolute;
+    bottom: -15%;
+    left: 0%;
+}
+.orange-half-circle{
+    height: 15vw;
+    width: 18%;
+    border-radius: 100%;
+    border:5px solid rgba(255, 170, 35, 1);
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(150deg);
+    position: absolute;
+    bottom: -15%;
+    right: 0%;
+}
+
+
+
+.hope-image-container{
+    width: 40%;
+    height: 40vw;
+}
+.hope-image{
+    width: 100%;
+    height: 100%;
+}
+.hope-content-heading{
+    color: rgba(235, 21, 81, 1);
+    font-size: 1.5vw;
+    font-family: 'Preahvihear';
+    text-align: center;
+}
+.hope-content-container{
+    width: 50%;
+}
+.empathy-container{
+    height: 5vw;
+    width: 35%;
+    background-color: rgba(21, 189, 98, 1);
+    border-radius: 0.5vw;
+    margin-left: 1.5vw;
+}
+.involvement-container{
+    height: 5vw;
+    width: 35% !important;
+    background-color: rgba(245, 0, 0, 1);
+    border-radius: 0.5vw;
+    margin-left: 2.5vw;
+}
+.experiance-container{
+    height: 5vw;
+    width: 35%;
+    background-color: rgba(0, 183, 244, 1);
+    border-radius: 0.5vw;
+    margin-left: 2.5vw;
+}
+.boxes-container{
+    display: flex;
+    justify-content: space-around;
+}
+.box-heading-container{
+    width: 30%;
+}
+.box-heading-container h1{
+    font-size: 2vw;
+}
+.hope-charts-image-content{
+    display: flex;
+    justify-content: space-around;
+}
+.section3-container{
+    background-image: url('images/autismafter.svg');
+    height: 30vw;
+}
+.content-container-autism h1{
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+}
+.content-container-autism{
+    padding-top: 5vw;
+    padding: 1vw;
+}
+.paragraph-autism{
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+    padding: 1vw;
+}
+.hope-bottom-content-container{
+    width: 50%;
+    margin-left: 3vw;
+    margin-top: 5vw;
+}
+.hope-bottom-content-container h1{
+    font-size: 3vw;
+    font-family: Nunito Sans;
+    padding-bottom: 1vw;
+}
+.hope-bottom-image-container{
+    height: 40vw;
+    width: 40%;
+}
+.hope-bottom-image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.hope-bottom-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-section-position{
+    padding-top: 6vw;
+    background:url("images/footerbackground.png");
+    background-size: cover;
+    position: relative;
+}
+.footer-section{
+    position: relative;
+    overflow-x: hidden;
+    height: max-content;
+}
+.footer-copyright{
+    color: white;
+    text-align: center;
+    font-size: 1.3vw;
+}
+.telegram-image{
+    height: 5vw;
+    position: absolute;
+    top: 4%;
+    left: 0;
+}
+.cloud1-image{
+    height: 5vw;
+    left: 20%;
+    top: 17%;
+    position: absolute;
+}
+.sun-image{
+    height: 5vw;
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    z-index: 8;
+}
+.rocket-image{
+    height: 8vw;
+    position: absolute;
+    right: 0%;
+    top: 30%;
+}
+.cloud2-image{
+    height: 5vw;
+    position: absolute;
+    right: -5%;
+}
+.footer-logo-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 200%;
+}
+.footer-section2{
+    margin-top: 13vw;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-section2 h1{
+    color: #b10505;
+    font-size: 2vw;
+}
+.footer-logo{
+    width: 6%;
+    height: 6vw;
+    border-radius: 100%;
+    position: relative;
+    z-index: 3;
+}
+.footer-logo p{
+    font-size: 1.6vw;
+    color: #ffffff;
+}
+.footer-pages{
+    width: 23%;
+    position: relative;
+    z-index: 3;
+}
+.footer-pages p{
+    font-size: 1.2vw;
+    color: #ffffff;
+    margin: 0;
+    line-height: 2.5vw;
+}
+.footer-pages li{
+    list-style-type: none;
+    color: white;
+    font-size: 1.2vw;
+    color: #ffffff;
+    margin: 0;
+    line-height: 2.5vw;
+}
+.footer-pages a{
+    text-decoration: none;
+}
+.footer-pages-2{
+    width: 23%;
+    position: relative;
+    z-index: 3;
+}
+.footer-pages-2 p{
+    font-size: 1.2vw;
+    color: #ffffff;
+    margin: 0;
+    line-height: 2.5vw;
+}
+.footer-contact-us{
+    width: 23%;
+    z-index: 3;
+    position: relative;
+}
+.footer-contact-us p{
+    font-size: 1.2vw;
+    color: #ffffff;
+    
+}
+
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 2vw;
+    justify-content: center;
+}
+.fa-facebook{
+    font-size: 2.2vw;
+    color: #1877f2;
+    background-color: white;
+    padding: 1vw;
+    border-radius: 50%;
+}
+.fa-twitter{
+    font-size: 2.2vw;
+    color: #1da1f2;
+}
+.fa-instagram{
+    font-size: 2.2vw;
+    color: #e4405f;
+    background-color: white;
+    padding: 1vw;
+    padding-left: 1.1vw;
+    padding-right: 1.1vw;
+    border-radius: 50%;
+}
+.twitter{
+    height: 4vw;
+    background-color: white;
+    padding: 1vw;
+    border-radius: 50%;
+}
+.social-icons li {
+    margin-right: 1vw;
+} 
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+}
+.facebook-icon {
+    color: #1877f2;
+}
+.twitter-icon {
+    color: #1da1f2;
+}
+.instagram-icon {
+    color: #e4405f;
+}
+
+
+.footer-section-each{
+    width: 30%;
+}
+.footer-hr-dotted{
+    border:0.1vw dashed;
+    color: #fff;
+}
+.footer-child-images{
+    height: 10vw;
+    margin-left: 2.5vw;
+}
+.footer-section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pencil-image{
+    height: 3vw;
+}
+.scale-image{
+    height: 3vw;
+    right: 0;
+}
+.flex-pencil-scale{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-squre1{
+    height: 15vw;
+    background-color: #ffffff;
+    width: 30vw;
+    border-radius: 50%;
+    position: absolute;
+    top: -23%;
+    left: -3%;
+}
+.footer-squre2 {
+    height: 15vw;
+    background-color: rgba(32, 123, 142, 1);
+    width: 40vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 24.5%;
+    top: -8.9%;
+    z-index: 7;
+}
+.footer-squre3{
+    height: 15vw;
+    background-color: #ffffff;
+    width: 30vw;
+    border-radius: 50%;
+    position: absolute;
+    top: -25%;
+    right: 7%;
+}
+.footer-squre4{
+    height: 4vw;
+    background-color: rgba(32, 123, 142, 1);
+    width: 10vw;
+    border-radius: 50%;
+    position: absolute;
+    top: -1%;
+    right:0.8%;
+}

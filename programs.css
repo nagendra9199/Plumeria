@@ -190,6 +190,17 @@ body{
     width: 100%;
     object-fit: cover;
 }
+.our-programs-image-container{
+    width: 45%;
+}
+.our-programs-image-container img{
+    width: 90%;
+}
+.our-programs-content-image-container{
+    display: flex;
+    margin-bottom: 2vw;
+    justify-content: center;
+}
 .our-section-pink-container{
     background-color: rgba(223, 87, 168, 1);
     height: 6vw;
@@ -403,7 +414,26 @@ body{
 }
 .key-area-development-container{
     background-image: url("images/keydevelopment.svg");
+    background-size: cover;
     height: 30vw;
+}
+.key-area-flex-container{
+    display: flex;
+    justify-content: center;
+}
+.key-area-container1{
+    width: 45%;
+}
+.key-area-container2{
+    width: 45%;
+}
+.key-area-container2 li{
+    color: white;
+    font-size: 1.5vw;
+}
+.key-area-container1 li{
+    color: white;
+    font-size: 1.5vw;
 }
 .kindergarten-heading{
     color: rgba(235, 21, 81, 1);
@@ -413,6 +443,11 @@ body{
 }
 .kindergarten-image-container{
     width: 45%;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+}
+.kindergarten-image-container img{
+    width: 90%;
 }
 .kindergarten-content-container{
     width: 50%;
@@ -435,7 +470,200 @@ body{
 .kindergarten-content-container span{
     background-color: rgba(255, 194, 36, 1);
     font-weight: bold;
+    border-bottom-left-radius: 5vw;
     padding: 1vw;
+}
+.kindergarten-background-container{
+    background-image: url('images/kinderback.svg');
+    background-size: cover;
+    padding-top: 0.5vw;   
+}
+.kindergarten-para-head{
+    background-color: white;
+    padding: 1.5vw;
+    margin-bottom: 2vw;
+    border-radius: 2vw;
+}
+.key-area-heading{
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 2vw;
+}
+
+.play-group-program-content-container span{
+    background-color: rgba(255, 194, 36, 1);
+    font-weight: bold;
+    border-bottom-left-radius: 5vw;
+    padding: 1vw;
+}
+.nursery-content-container span{
+    background-color: rgba(255, 194, 36, 1);
+    font-weight: bold;
+    border-bottom-left-radius: 5vw;
+    padding: 1vw;
+}
+.dye-care-heading{
+    text-align: center;
+    font-size: 2vw;
+    color:rgba(235, 21, 81, 1);
+    font-family: Preahvihear;
+}
+.dye-care-content-container{
+    width: 40%;
+}
+.dye-care-content-container p{
+    font-size: 1.3vw;
+    line-height: 2.8vw;
+}
+.dye-care-image-conatiner{
+    width: 45%;
+    height: 35vw;
+}
+.dye-care-image-conatiner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.dye-care-content-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dye-care-paragraph p{
+    font-size: 1.3vw;
+    margin: 2vw;
+    line-height: 2.8vw;
+}
+.child-care-background-container{
+    background-image: url("images/childcareback.svg");
+    background-size: cover;
+    height: 35vw;
+}
+.child-care-heading{
+    font-size: 2vw;
+    color: rgba(235, 21, 81, 1);
+    font-family: Preahvihear;
+    text-align: center;
+    padding-top: 2vw;
+}
+.child-care-image-container{
+    height: 22vw;
+    width: 18%;
+    background-color: #ffffff;
+    border-radius: 1vw;
+}
+.child-care-flex-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    overflow-x: scroll;
+    flex-shrink: 0;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+.child-care-flex-container::-webkit-scrollbar {
+    display: none;
+  }
+.child-care-white-card-container{
+    height: 22vw;
+    width: 18%;
+    position: absolute;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 1vw;
+    z-index: 10;
+    top: 0;
+}
+.child-care-image-container:hover{
+    .child-care-white-card-container{
+        transform: translateX(-100%);
+    }
+}
+.child-care-white-card-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1vw;
+}
+.child-care-card-heading{
+    font-size: 1.2vw;
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    text-align: center;
+    background-color: #33333394;
+    width: 100%;
+}
+.child-care-paragraph{
+    font-size: 1.1vw;
+    display: flex;
+    text-align: center;
+}
+.programs-facilities-head{
+    color: rgba(235, 21, 81, 1);
+    font-family: Preahvihear;
+    font-size: 2vw;
+    text-align: center;
+    margin: 2vw;
+}
+.facilities-heading{
+    color: black;
+    font-size: 3vw;
+    text-align: center;
+}
+.flex-content-facilities-container{
+    display: flex;
+    justify-content: space-around;
+}
+.flex-content-facilities-container p{
+    font-size: 1.3vw;
+}
+.flyeres-container{
+    background-color: rgba(249, 246, 239, 1);
+    height: 40vw;
+}
+.flyers-image-white-container{
+    height: 20vw;
+    width: 20%;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgb(146, 146, 146);
+    border-radius: 3vw;
+    position: relative;
+}
+.flyers-flex-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 17vw;
+}
+.flyers-image-container{
+    width: 90%;
+    position: absolute;
+    top: -65%;
+    left: 5%;
+}
+.flyers-image-container img{
+    height: 100%;
+    width: 100%;
+}
+.flyer-button button{
+    background: linear-gradient(to right,rgba(135, 207, 58, 1),rgba(45, 204, 128, 1));
+    border: none;
+    color: white;
+    font-size: 1.5vw;
+    margin-top: 15vw;
+}
+.flyer-button{
+    display: flex;
+    justify-content: center;
+}
+.flyers-heading{
+    color: rgba(235, 21, 81, 1);
+    font-size: 2vw;
+    text-align: center;
+    font-family: Preahvihear;
+    padding-top: 2vw;
 }
 
 
@@ -682,4 +910,41 @@ body{
     position: absolute;
     top: -1%;
     right:0.8%;
+}
+
+.dropdown{
+    display: none;
+}
+.programs:hover{
+    .dropdown{
+        display: block;
+    }
+}
+/* Add this to your existing CSS styles */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }

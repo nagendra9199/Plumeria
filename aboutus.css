@@ -23,6 +23,7 @@ body{
     font-family: 'preahvihear';
     min-width: 70%;
     margin-top: 3.5vw;
+    color: red;
 }
 .call-head{
     font-weight: bold;
@@ -88,8 +89,7 @@ body{
 .navbar-header{
     min-width: 100%;
     max-width: 100%;
-    margin-right: 1.8vw;
-
+    background-color: #0a03039d;
 }
 .navbar-fixed {
     position: fixed;
@@ -230,7 +230,7 @@ body{
 }
 .about-remaining p{
     font-size: 1.3vw;
-    color: #b10505;
+    color: #868686;
 }
 .about-remaining{
     margin: 3vw;
@@ -238,8 +238,8 @@ body{
 
 
 .inline-photo {
-    border: 1em solid rgb(6, 91, 117);
-    border-bottom: 3em solid rgb(6, 91, 117);
+    border: 1em solid rgba(6, 91, 117, 0);
+    border-bottom: 3em solid rgb(255, 255, 255);
     border-radius: .25em;
     box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
     margin: 2em auto;
@@ -273,7 +273,7 @@ body{
 .footer-copyright{
     color: white;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 .telegram-image{
     height: 5vw;
@@ -320,8 +320,8 @@ body{
     font-size: 2vw;
 }
 .footer-logo{
-    width: 10%;
-    height: 10vw;
+    width: 6%;
+    height: 6vw;
     border-radius: 100%;
     position: relative;
     z-index: 3;
@@ -336,7 +336,15 @@ body{
     z-index: 3;
 }
 .footer-pages p{
-    font-size: 1.4vw;
+    font-size: 1.2vw;
+    color: #ffffff;
+    margin: 0;
+    line-height: 2.5vw;
+}
+.footer-pages li{
+    list-style-type: none;
+    color: white;
+    font-size: 1.2vw;
     color: #ffffff;
     margin: 0;
     line-height: 2.5vw;
@@ -350,7 +358,7 @@ body{
     z-index: 3;
 }
 .footer-pages-2 p{
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     color: #ffffff;
     margin: 0;
     line-height: 2.5vw;
@@ -361,7 +369,7 @@ body{
     position: relative;
 }
 .footer-contact-us p{
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     color: #ffffff;
     
 }

@@ -45,13 +45,22 @@
                     <ul class="navbar-list-items">
                         <a href="index.html"><li>Home</li></a>
                         <a href="aboutus.html"><li>About Us</li></a>
-                        <a href="programs.html"><li>Programs</li></a>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">Programs</a>
+                            <div class="dropdown-content">
+                                <a href="#playGroup">Play Group</a>
+                                <a href="#nurseryContainer">Nursery</a>
+                                <a href="#kindergartenContainer">Kindergarten</a>
+                                <a href="#daycareContainer">Childcare</a>
+                            </div>
+                        </li>
                         <a href="hope.html"><li>Hope</li></a>
                         <a href="admission.html"><li>Admission</li></a>
                         <a href="gallery.html"><li>Gallery</li></a>
                         <a href="contactus.html"><li>Contact Us</li></a>
                     </ul>
                 </div>
+                
                 <div class="programs-heading-container">
                     <h1 class="programs-heading">Programs</h1>
                 <h2 class="programs-sub-head">Home > <span class="programs-sub-head2">Programs</span></h2>
@@ -63,8 +72,13 @@
         <div class="programs-container">
             <div class="our-programs-container">
                 <h1 class="our-programs-heading">Our Programs</h1>
-                <div class="our-programs-content-container">
-                    <p>We offer a specific methodology that adapts a contemporary Montessori values. This kind of system strives for a balance between academic achievement and a strong value system protecting the concerns of the child. Through the Plumeria Montessori Method, children are encouraged to learn through practical experience and self-discovery within a carefully prepared child-oriented environment. Classrooms are equipped with scientifically prepared material for each stage of development and the trained teachers guide the children to develop a well-adjusted, balanced personality. Every aspect of learning and needs of the child are deeply questioned and enriched by the teacher, the participation of the parent and the inclusion of the community.</p>
+                <div class="our-programs-content-image-container">
+                    <div class="our-programs-content-container">
+                        <p>We offer a specific methodology that adapts a contemporary Montessori values. This kind of system strives for a balance between academic achievement and a strong value system protecting the concerns of the child. Through the Plumeria Montessori Method, children are encouraged to learn through practical experience and self-discovery within a carefully prepared child-oriented environment. Classrooms are equipped with scientifically prepared material for each stage of development and the trained teachers guide the children to develop a well-adjusted, balanced personality. Every aspect of learning and needs of the child are deeply questioned and enriched by the teacher, the participation of the parent and the inclusion of the community.</p>
+                    </div>
+                    <div class="our-programs-image-container">
+                        <img src="images/ourprograms5.svg"/>
+                    </div>
                 </div>
             </div>
 
@@ -76,7 +90,7 @@
                             <p>Play Group</p>
                         </div>
                     </div>
-                    <a href="" class="view-more-anchor">View More</a>
+                    <a href="#playGroup" class="view-more-anchor">View More</a>
                 </div>
 
 
@@ -87,7 +101,7 @@
                             <p>Nursery</p>
                         </div>
                     </div>
-                    <a href="" class="view-more-anchor">View More</a>
+                    <a href="#nurseryContainer" class="view-more-anchor">View More</a>
                 </div>
 
 
@@ -98,7 +112,7 @@
                             <p>Kindergarten</p>
                         </div>
                     </div>
-                    <a href="" class="view-more-anchor">View More</a>
+                    <a href="#kindergartenContainer" class="view-more-anchor">View More</a>
                 </div>
 
 
@@ -109,19 +123,19 @@
                             <p>Childcare</p>
                         </div>
                     </div>
-                    <a href="" class="view-more-anchor">View More</a>
+                    <a href="#daycareContainer" class="view-more-anchor">View More</a>
                 </div>
             </div>
 
 
 
-            <div class="play-group-program-container">
+            <div class="play-group-program-container" id="playGroup">
                 <h1 class="play-group-heading">Playgroup Program</h1>
 
                 <div class="play-group-content-image-container">
                     <div class="play-group-program-image-container"></div>
                     <div class="play-group-program-content-container">
-                        <h1>2 Years + Onwards</h1>
+                        <h1>2 Years + <span>Onwards</span></h1>
                         <p>This unique program is just an extension of home. Children start their journey of exploration and discovery in our playgroup program. Teachers help them apply their developing literacy and math skills through purposeful, planned learning experiences.</p>
                         <h2>“All that we ourselves are has been made by the child, by the child we were in the first two years of our lives.”</h2>                    </div>
                 </div>
@@ -169,28 +183,180 @@
 
             </div>
 
-            <div class="nursery-main-container">
+            <div class="nursery-main-container" id="nurseryContainer">
                 <h1 class="nursery-main-heading">Nursery</h1>
                 <div class="nursery-contet-image-container">
                     <div class="nursery-content-container">
-                        <h1>3 Years+ Onwards</h1>
+                        <h1>3 Years+ <span>Onwards</span></h1>
                         <p>Plumeria Nursery Program plays the foundation for all the key skills desirable for an early learner.
                             A well-planned curriculum spanning monthly thematic programs, specific weekly topics and daily learning schedules keep the child focused on academic learning through explorations.</p>
                             <h2>“A child who has become master of his acts through long and repeated exercises, and who has been encouraged by the pleasant and interesting activities in which he has been engaged, is a child filled with health and joy and remarkable for his calmness and discipline.”</h2>
                     </div>
                 </div>
 
-                <div class="key-area-development-container"></div>
+                <div class="key-area-development-container">
+                    <h1 class="key-area-heading">Key Areas of Development</h1>
+                    <div class="key-area-flex-container">
+                        <div class="key-area-container1">
+                            <ul>
+                                <li>Gross & Fine motor skills.</li>
+                                <li>Communication skills.</li>
+                                <li>Pre writing skills</li>
+                                <li>Cognitive development.</li>
+                                <li>Math’s & Numbers.</li>
+                            </ul>
+                        </div>
+                        <div class="key-area-container2">
+                            <ul>
+                                <li>Phonemic awareness.</li>
+                                <li>Life skills.</li>
+                                <li>Grace & courtesy.</li>
+                                <li>Creative expression through art, craft, role play & dance.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="kindergarten-background-container">
+            <div class="kindergarten-background-container" id="kindergartenContainer">
                 <h1 class="kindergarten-heading">KINDERGARDEN</h1>
                 <div class="kindergarten-content-image-container">
-                    <div class="kindergarten-image-container"></div>
+                    <div class="kindergarten-image-container">
+                        <img src="images/kindergarten3.svg"/>
+                    </div>
                     <div class="kindergarten-content-container">
                         <h1>4 <span>& 5 Years</span></h1>
-                        <p>Plumeria kindergarten Programs are unique in the way we prepare the child holistically and well ahead for primary school education. The program is thoughtfully curated to facilitate a smooth transition from preschool to a structured learning environment, setting the stage for formal school. All the skills, the child has acquired in the preceding two years of the Playgroup & Nursery programs are assimilated, reinforced and come to fruition in these transformative years.</p>
-                        <h2>“There are many who hold, as I do, that the most important period of life is not the age of university studies, but the first one, the period from birth to the age of six. For that is the time when man's intelligence itself, his greatest implement, is being formed. But not only his intelligence; the full totality of his psychic powers."</h2>
+                        <div class="kindergarten-para-head">
+                            <p>Plumeria kindergarten Programs are unique in the way we prepare the child holistically and well ahead for primary school education. The program is thoughtfully curated to facilitate a smooth transition from preschool to a structured learning environment, setting the stage for formal school. All the skills, the child has acquired in the preceding two years of the Playgroup & Nursery programs are assimilated, reinforced and come to fruition in these transformative years.</p>
+                            <h2>“There are many who hold, as I do, that the most important period of life is not the age of university studies, but the first one, the period from birth to the age of six. For that is the time when man's intelligence itself, his greatest implement, is being formed. But not only his intelligence; the full totality of his psychic powers."</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="dye-care-container" id="daycareContainer">
+                <h1 class="dye-care-heading">DAY CARE</h1>
+                <div class="dye-care-content-image-container">
+                    <div class="dye-care-content-container">
+                        <p>In this age of women empowerment, it is common to see households with working couples/single parents constantly on the lookout for quality day care-givers for their school going children.
+                            No parent can work in peace if they are constantly worried about the quality of care being provided to their little one.
+                        </p>
+                        
+                    </div>
+                    <div class="dye-care-image-conatiner">
+                        <img src="images/dyecare.svg"/>
+                    </div>
+                </div>
+                <div class="dye-care-paragraph">
+                    <p>The half-day and full-day child care programs offer a healthy mix of physical activities, meal time, nap time, and educational opportunities. Our childcare is a great way to get regular updates, including observations and pictures. It also gives parents a comprehensive daily routine of their child's activity in daycare. We offer after-school programs that are important for children to learn and provide families with the assurance and support they need as they head to work</p>
+                </div>
+            </div>
+
+
+            <div class="child-care-background-container">
+                <h1 class="child-care-heading">At Plumeria Childcare, we offer the following</h1>
+
+                <div class="child-care-flex-container">
+                    <div class="child-care-image-container">
+                        <p class="child-care-paragraph">Clean beds & wash rooms give comfort to your child. Healthy, and nutritious home cooked food gives motherly feel. Care givers provides personal attention to every child.</p>
+                        <div class="child-care-white-card-container">
+                            <img src="images/childcare1.svg"/>
+                            <h1 class="child-care-card-heading">Healthy environment 
+                                & Nutritious food</h1>
+                        </div>
+                    </div>
+                    <div class="child-care-image-container">
+                        <p class="child-care-paragraph">This Sessions concentrate on helping children’ improvement and make them confident in their communication skills.</p>
+                        <div class="child-care-white-card-container">
+                            <img src="images/childcare2.svg"/>
+                            <h1 class="child-care-card-heading">Langauge Enrichment</h1>
+                        </div>
+                    </div>
+                    <div class="child-care-image-container">
+                        <p class="child-care-paragraph">Learning math through fun and exciting concepts and hands-on Science through projects and
+                            STEM
+                            activities allows children to develop problem-solving skills to improve physical & mental health, teamwork, and communication skills. Arts and crafts offer a chance to learn and grow in a fun and creative environment.</p>
+                        <div class="child-care-white-card-container">
+                            <img src="images/childcare3.svg"/>
+                            <h1 class="child-care-card-heading"> Fun with Math & Hands-on science</h1>
+                        </div>
+                    </div>
+                    <div class="child-care-image-container">
+                        <p class="child-care-paragraph">Art & Craft helps children expand their imagination with our wonderful learning resources. Our reading sessions help children understand different emotions and also learn to associate their feelings with words, and to find a way to express themselves better.</p>
+                        <div class="child-care-white-card-container">
+                            <img src="images/childcare4.svg"/>
+                            <h1 class="child-care-card-heading">Craft & Reading</h1>
+                        </div>
+                    </div>
+                    <div class="child-care-image-container">
+                        <p class="child-care-paragraph">Art & Craft helps children expand their imagination with our wonderful learning resources. Our reading sessions help children understand different emotions and also learn to associate their feelings with words, and to find a way to express themselves better.</p>
+                        <div class="child-care-white-card-container">
+                            <img src="images/art-dance-image.jpg"/>
+                            <h1 class="child-care-card-heading">Art & Dance</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="facilities-container">
+                <h1 class="programs-facilities-head">YOU NEED NOT END YOUR CAREER; CHILDCARE PROVIDERS BRING CHANGE  
+                    IN YOUR LIFE AND HELP CONTINUE YOUR CAREER</h1>
+                <h1 class="facilities-heading">Facilities</h1>
+                <div class="flex-content-facilities-container">
+                    <div class="flex-content-container1">
+                        <p>Extended hours/Customized childcare</p>
+                        <p>Fresh cooked meals</p>
+                        <p>Complete Cctv Surveillance</p>
+                        <p>Qualified teachers</p>
+                        <p>Rooms with Aircons</p>
+                    </div>
+                    <div class="flex-content-container2">
+                        <p>Indoor Play/ Activity space and Materials</p>
+                        <p>Outdoor Play/ Activity space and Materials</p>
+                        <p>Art Classes (like Crafts, & paintings)</p>
+                        <p>Enhanced care for the whole health & development of child</p>
+                        <p>Licensed childcare center</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flyeres-container">
+                <h1 class="flyers-heading">Our School flyers </h1>
+                <div class="flyers-flex-container">
+                    <div class="flyers-image-white-container">
+                        <div class="flyers-image-container">
+                            <img src="images/flyer1.svg"/>
+                        </div>
+                        <div class="flyer-button">
+                            <button onclick="downloadImage()">Download</button>
+                        </div>
+                    </div>
+                    <div class="flyers-image-white-container">
+                        <div class="flyers-image-container">
+                            <img src="images/flyer2.svg"/>
+                        </div>
+                        <div class="flyer-button">
+                            <button onclick="downloadImage()">Download</button>
+                        </div>
+                    </div>
+                    <div class="flyers-image-white-container">
+                        <div class="flyers-image-container">
+                            <img src="images/flyer3.svg"/>
+                        </div>
+                        <div class="flyer-button">
+                            <button onclick="downloadImage()">Download</button>
+                        </div>
+                    </div>
+                    <div class="flyers-image-white-container">
+                        <div class="flyers-image-container">
+                            <img src="images/flyer4.svg"/>
+                        </div>
+                        <div class="flyer-button">
+                            <button onclick="downloadImage()">Download</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -275,6 +441,27 @@
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.1/gsap.min.js"></script>
         <script>
+
+
+
+
+        function downloadImage() {
+            var imageUrl = document.querySelector('.flyers-image-container img').src;
+
+            var downloadLink = document.createElement('a');
+
+            downloadLink.href = imageUrl;
+            downloadLink.download = 'downloaded_image';
+
+            document.body.appendChild(downloadLink);
+
+            downloadLink.click();
+
+            document.body.removeChild(downloadLink);
+        }
+
+
+
             window.addEventListener("scroll", function () {
                 var navbar = document.querySelector(".navbar-header");
                 var header = document.querySelector(".header");

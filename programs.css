@@ -405,7 +405,38 @@ body{
     background-image: url("images/keydevelopment.svg");
     height: 30vw;
 }
-
+.kindergarten-heading{
+    color: rgba(235, 21, 81, 1);
+    font-size: 2vw;
+    text-align: center;
+    font-family: Preahvihear;
+}
+.kindergarten-image-container{
+    width: 45%;
+}
+.kindergarten-content-container{
+    width: 50%;
+}
+.kindergarten-content-image-container{
+    display: flex;
+}
+.kindergarten-content-container h1{
+    font-size: 2vw;
+    margin-left: 25vw;
+}
+.kindergarten-content-container p{
+    font-size: 1.3vw;
+}
+.kindergarten-content-container h2{
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-style: italic;
+}
+.kindergarten-content-container span{
+    background-color: rgba(255, 194, 36, 1);
+    font-weight: bold;
+    padding: 1vw;
+}
 
 
 

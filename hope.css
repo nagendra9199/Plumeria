@@ -25,7 +25,7 @@ body{
     margin-top: 3.5vw;
     color: red !important;
     margin-left: 1vw;
-}
+} 
 .call-head{
     font-weight: bold;
     font-family: sans-serif;
@@ -90,8 +90,7 @@ body{
 .navbar-header{
     min-width: 100%;
     max-width: 100%;
-    margin-right: 1.8vw;
-
+    background-color: #0a03039d;
 }
 .navbar-fixed {
     position: fixed;
@@ -348,8 +347,9 @@ body{
 
 
 .hope-image-container{
-    width: 40%;
+    width: 50%;
     height: 40vw;
+    margin-left: 2vw;
 }
 .hope-image{
     width: 100%;
@@ -362,14 +362,22 @@ body{
     text-align: center;
 }
 .hope-content-container{
-    width: 50%;
+    width: 100%;
 }
+.hope-charts-container{
+    width: 50%;
+    margin-left: 15vw;
+}
+.hope-charts-container img{
+    width: 100%;
+}
+
 .empathy-container{
     height: 5vw;
     width: 35%;
     background-color: rgba(21, 189, 98, 1);
     border-radius: 0.5vw;
-    margin-left: 1.5vw;
+    margin-left: 1vw;
 }
 .involvement-container{
     height: 5vw;
@@ -442,8 +450,96 @@ body{
     justify-content: center;
 }
 
-
-
+.autism-background-container{
+    background-image: url('images/autismback.svg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.autism-image-container{
+    width: 50%;
+    margin-left: 5vw;
+}
+.autism-image-container img{
+    width: 70%;
+}
+.autism-content-container{
+    width: 30%;
+}
+.autism-heading{
+    color: rgba(235, 21, 81, 1);
+    font-size: 3vw;
+    font-family: Preahvihear;
+}
+.autism-content-container p{
+    font-size: 2vw;
+}
+.autism-content-container span{
+    color: rgba(235, 21, 81, 1);
+}
+.hope-container1{
+    height: 25vw;
+    width: 22%;
+    background-color: rgba(237, 234, 255, 1);
+    border-radius: 1vw;
+    padding: 2vw;
+}
+.hope-container1 h1{
+    color: rgba(120, 106, 207, 1);
+    font-size: 1.5vw;
+}
+.hope-container1 p{
+    font-size: 1.2vw;
+    color: rgba(24, 24, 24, 1);
+}
+.hope-container2{
+    height: 25vw;
+    width: 22%;
+    background-color: rgba(255, 243, 216, 1);
+    border-radius: 1vw;
+    padding: 2vw;
+}
+.hope-container2 h1{
+    color: rgba(252, 181, 16, 1);
+    font-size: 1.5vw;
+}
+.hope-container2 p{
+    font-size: 1.2vw;
+}
+.hope-container3{
+    height: 25vw;
+    width: 22%;
+    background-color: rgba(255, 233, 228, 1);
+    border-radius: 1vw;
+    padding: 2vw;
+}
+.hope-container3 h1{
+    color: rgba(251, 92, 54, 1);
+    font-size: 1.5vw;
+}
+.hope-container3 p{
+    font-size: 1.2vw;
+}
+.hope-container4{
+    height: 25vw;
+    width: 22%;
+    background-color: rgba(222, 253, 250, 1);
+    border-radius: 1vw;
+    padding: 2vw;
+}
+.hope-container4 h1{
+    color: rgba(91, 215, 202, 1);
+    font-size: 1.5vw;
+}
+.hope-container4 p{
+    font-size: 1.2vw;
+}
+.hope-four-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vw;
+}
 
 
 
@@ -684,4 +780,45 @@ body{
     position: absolute;
     top: -1%;
     right:0.8%;
+}
+
+
+
+
+
+.dropdown{
+    display: none;
+}
+.programs:hover{
+    .dropdown{
+        display: block;
+    }
+}
+/* Add this to your existing CSS styles */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }

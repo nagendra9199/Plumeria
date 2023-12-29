@@ -1,5 +1,5 @@
 body{
-    font-family:Verdana, Geneva, Tahoma !important;
+    font-family:Nunito Sans;
     max-width: 100%;
 }
 .header{
@@ -15,7 +15,7 @@ body{
 .logo-header-image{
     width: 55%;
     margin: 0;
-    margin-top: 2vw;
+    margin-top: 2vw; 
     margin-left: 4vw;
 }
 .title-school{
@@ -149,291 +149,270 @@ body{
     padding-bottom: 12vw;
 }
 
-
-
-
-.letters-image-container{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3vw;
+.our-programs-heading{
+    color: rgba(235, 21, 81, 1);
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Preahvihear';
 }
-.letters-image{
-    height: 5vw;
-}
-
-.our-programs-container{
+.our-programs-content-container{
     width: 45%;
     margin-left: 4vw;
 }
-.our-programs-container h1{
-    font-size: 3vw;
-    font-weight: bold;
-    color: rgb(6, 6, 70);
+.our-programs-content-container p{
+    font-size: 1.3vw;
+    line-height: 2.5vw;
 }
-.our-programs-container p{
-    font-size: 1.5vw;
+.our-programs-foursection-container{
+    background-color: rgba(250, 244, 234, 1);
+    height: 26vw;
+}
+.our-programs-each-section-container{
+    width: 22%;
+    height: 19vw;
+    margin-left: 3vw;
+    border-radius: 2vw;
+    position: relative;
+    
+}
+.our-programs-each-image-container{
+    width: 97%;
+    height: 97%;
+    background-color: rgba(250, 244, 234, 1);
+    position: relative;
+    border-radius: 1vw;
+    top: 8%;
+    left: -8%;
 }
 
-.our-programs-line{
-    background-color:#e4405f;
-    border: none;
-    height: 1vw;
-}
-.our-programs-image{
-    height:40vw;
-    width: 40vw;
-    background-color: #b10505;
-    margin-right: 4vw;
-}
-.our-programs-image img{
+.our-programs-each-image-container img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.our-section-pink-container{
+    background-color: rgba(223, 87, 168, 1);
+    height: 6vw;
+    width: 60%;
+    border-top-left-radius: 200%;
+    border-top-right-radius: 200%;
+    position: absolute;
+    bottom: 3%;
+    left: 20%;
+}
+
+.our-section-yellow-container{
+    background-color: rgba(250, 175, 17, 1);
+    height: 6vw;
+    width: 60%;
+    border-top-left-radius: 200%;
+    border-top-right-radius: 200%;
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+}
+.our-section-pink-container p{
     color: white;
+    font-size: 1vw;
+    margin-top: 2vw;
+    margin-left: 3.5vw;
 }
-.our-programs-main-container{
+.our-section-yellow-container p{
+    color: white;
+    font-size: 1vw;
+    margin-top: 2vw;
+    margin-left: 3.7vw;
+}
+
+.our-section-blue-container{
+    background-color: rgba(81, 201, 238, 1);
+    height: 6vw;
+    width: 60%;
+    border-top-left-radius: 200%;
+    border-top-right-radius: 200%;
+    position: absolute;
+    bottom: 3%;
+    left: 20%;
+}
+.our-section-blue-container p{
+    color: white;
+    font-size: 1vw;
+    margin-top: 2vw;
+    margin-left: 3.5vw;
+}
+
+.our-section-red-container{
+    background-color: rgba(243, 44, 44, 1);
+    height: 6vw;
+    width: 60%;
+    border-top-left-radius: 200%;
+    border-top-right-radius: 200%;
+    position: absolute;
+    bottom: 3%;
+    left: 20%;
+}
+.our-section-red-container p{
+    color: white;
+    font-size: 1vw;
+    margin-top: 2vw;
+    margin-left: 3.5vw;
+}
+
+.our-programs-foursection-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
-.pre-school-programs-heading{
-    font-size: 2vw;
-    text-align: center;
-}
-.programs-anchor-elements h1, a{
-    font-size: 2vw;
+.view-more-anchor{
+    color: white;
+    background: linear-gradient(to right,rgba(135, 207, 58, 1),rgba(45, 204, 128, 1));
     text-decoration: none;
-    background-color: #b10505;
-    color: white;
-    padding: 1vw;
-    font-family: cursive;
-}
-.programs-anchor-elements{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 4vw;
-    margin-right: 4vw;
-}
-.programs-anchor-elements h1 {
-    transition: color 0.8s ease, background-color 0.8s ease; /* Adding transition for color change */
-}
-
-.programs-anchor-elements h1:hover {
-    color: rgb(250, 250, 250);
-    background-color: rgb(5, 5, 71);
-}
-
-.pre-nursery-container{
-    margin-left: 4vw;
-}
-.pre-nursery-heading{
-    margin-top: 3vw;
-    font-size: 2vw;
-    color: orange;
-    font-weight: bold;
-    text-decoration: overline;
-}
-.pre-nursery-content-container{
-    width: 40%;
-    background-color: #e4405ec2;
-    padding: 1vw;
-}
-.pre-nursery-content-container p{
-    font-size: 1.3vw;
-    line-height: 2.5vw;
-    color: white;
-}
-.pre-nursery-image-container{
-    width: 55%;
-    height: 27.2vw;
-}
-.pre-nursery-image-container img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    animation: scaleAndFade 1.5s ease-in-out;
-}
-.pre-nursery-main-container{
-    display: flex;
-}
-
-
-.nursery-container{
-    margin-left: 4vw;
-}
-.nursery-heading{
-    margin-top: 5vw;
-    font-size: 2vw;
-    color: orange;
-    font-weight: bold;
-    text-decoration: overline;
-}
-.nursery-image-container{
-    width: 40%;
-    height: 35.5vw;
-}
-.nursery-container img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    animation: scaleAndFade 1.5s ease-in-out;
-}
-
-.nursery-main-container{
-    display: flex;
-}
-.nursery-content-container{
-    width: 55%;
-    background-color: #B3A492;
-}
-.nursery-content-container p{
-    font-size: 1.3vw;
-    line-height: 2.5vw;
-    color: white;
-    padding: 1vw;
-}
-.nursery-key-areas{
-    font-size: 1.5vw;
+    width: 50%;
+    font-size: 1.2vw;
+    border-radius: 0.5vw;
+    position: absolute;
     text-align: center;
-    color: red;
-    text-decoration: line-through;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -25%;
+    left: 15%;
+    z-index: 10;
 }
-.nursery-key-areas-container p{
+.play-group-heading{
+    text-align: center;
+    font-family: Preahvihear;
+    font-size: 2vw;
+    color: rgba(235, 21, 81, 1);
+}
+.play-group-program-image-container{
+    width: 50%;
+}
+.play-group-content-image-container{
+    display: flex;
+}
+.play-group-program-content-container{
+    width: 50%;
+}
+.play-group-program-content-container h1{
+    font-size: 2vw;
+}
+.play-group-program-content-container p{
+    font-size: 1.3vw;
+}
+.play-group-program-content-container h2{
     font-size: 1.5vw;
-    width: 30%;
-    color: #fff;
+    font-weight: bold;
+    font-style: italic;
 }
-.nursery-key-areas-container{
+.play-group-key-focus{
+    text-align: center;
+    font-family: Preahvihear;
+    font-size: 2vw;
+    color: rgba(235, 21, 81, 1);
+}
+.key-focus-container1{
+    height: 20vw;
+    width: 30%;
+    background-color: rgba(212, 249, 255, 1);
+    border-radius: 1vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+.key-focus-container2{
+    height: 20vw;
+    width: 30%;
+    background-color: rgba(255, 244, 215, 1);
+    border-radius: 1vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+.key-focus-container3{
+    height: 20vw;
+    width: 30%;
+    background-color: rgba(215, 209, 249, 1);
+    border-radius: 1vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+.key-focus-container4{
+    height: 20vw;
+    width: 30%;
+    background-color: rgba(253, 213, 213, 1);
+    border-radius: 1vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+.key-focus-container5{
+    height: 20vw;
+    width: 30%;
+    background-color: rgba(245, 241, 234, 1);
+    border-radius: 1vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+.key-focus-containers{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.308);
-    padding: 2vw;
 }
-.nursery-key-events-background{
-    background-image: url("images/nursery-key-events-image2.jpg");
-    background-size: cover;
-    width: 95%;
-    padding-top: 1vw;
-}
-
-.kindergarten-heading{
-    margin-top: 5vw;
-    font-size: 2vw;
-    color: orange;
-    font-weight: bold;
-    text-decoration: overline;
-}
-.kindergarten-container{
-    margin-left:  4vw;
-}
-.kindergarten-content-container{
-    width: 50%;
-    background-color: #a39fa0dc;
-    padding: 1vw;
-}
-.kindergarten-content-container p{
-    font-size: 1.3vw;
-    line-height: 2.5vw;
-    color: white;
-}
-.kindergarten-image-container{
-    width: 45%;
-}
-.kindergarten-image-container img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    animation: scaleAndFade 1.5s ease-in-out;
-}
-@keyframes scaleAndFade {
-    0% {
-        transform: scale(0.8);
-        opacity: 0;
-    }
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-.kindergarten-main-container{
-    display: flex;
-}
-
-.new {
-    width: 50%;
-    background-color: #7c7e34dc;
-    padding: 1vw;
-}
-
-
-
-.child-care-points-container{
-    height: 25vw;
-    width: 27%;
-    background-color: #b10505;
-    border-radius: 1vw;
-    margin-right: 2vw;
-    flex-shrink: 0;
-    position: relative;
-}
-.child-care-points-container img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-.child-care-points-container:hover{
-    .programs-over-lay{
-        background-color: #3333337c;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        z-index: 10;
-    }
-    .child-care-points-heading-container{
-        display: block;
-        top: 10%;
-    }
-    .child-care-points-paragraph{
-        display: none;
-    }
-}
-.child-care-points-heading{
-    font-size: 1vw;
-    color: white;
-    width: 100%;
-    text-align: center;
-}
-.child-care-points-heading-container{
-    position: absolute;
-    bottom: 10%;
-    z-index: 20;
-    display: none;
-    transition: transform 2s ease-in-out;
-}
-
-
-
-
-.child-care-points-paragraph{
+.key-focus-content h1{
     font-size: 1.5vw;
-    position: absolute;
-    bottom: 0;
-    background-color: #ffffff;
-    width: 100%;
+    color: rgba(235, 21, 81, 1);
+    height: 15%;
+}
+.key-focus-content p{
+    font-size: 1.3vw;
+    height: 45%;
+}
+.key-focus-button button{
+    background: linear-gradient(to right,rgba(135, 207, 58, 1),rgba(45, 204, 128, 1));
+    border: none;
+    color: white;
+    border-radius: 0.5vw;
+    font-size: 1.5vw;
+    margin-right: 1vw;
+}
+.key-focus-button{
+    display: flex;
+    justify-content: end;
+}
+.key-focus-content{
+    padding: 1vw;
+}
+.nursery-main-heading{
+    font-size: 2vw;
+    color: rgba(235, 21, 81, 1);
+    font-family: Preahvihear;
     text-align: center;
 }
-
-
-.child-care-programs-container{
-    display: flex;
-    overflow-x: scroll;
-    margin-left: 4vw;
-    margin-top: 2.5vw;
-    margin-right: 4vw;
+.nursery-content-container{
+    width: 40%;
+    margin-left: 3vw;
 }
-.child-care-programs-container::-webkit-scrollbar {
-    display: none;
-  }
+.nursery-content-container h1{
+    font-size: 2vw;
+}
+.nursery-content-container p{
+    font-size: 1.3vw;
+}
+.nursery-content-container h2{
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-style: italic;
+}
+.key-area-development-container{
+    background-image: url("images/keydevelopment.svg");
+    height: 30vw;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -527,7 +506,7 @@ body{
     font-size: 1.2vw;
     color: #ffffff;
     margin: 0;
-    line-height: 0vw;
+    line-height: 2vw;
 }
 .footer-pages a{
     text-decoration: none;

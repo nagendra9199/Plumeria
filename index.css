@@ -1,17 +1,9 @@
-:root {
-    --bs-font-sans-serif: 'YourFont', sans-serif;
-  }
+
   
   body {
-    font-family: var(--bs-font-sans-serif) !important;
+    font-family: Nunito Sans !important;
   }
-  @font-face {
-    font-family: 'YourFont';
-    src: url('path/to/your-font.woff2') format('woff2'),
-         url('path/to/your-font.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+  
 
 
 .header{
@@ -398,6 +390,7 @@
     color:rgba(235, 21, 81, 1);
     font-size: 2vw;
     font-family: 'preahvihear';
+    margin-bottom: 13vw;
 }
 .programs-content{
     font-size: 2vw;
@@ -899,4 +892,40 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+
+
+
+.home-page-programs-container{
+    height: 35vw;
+    width: 22%;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(160, 160, 160);
+    border-radius: 1vw;
+}
+.home-page-programs{
+    display: flex;
+    justify-content: space-around;
+}
+.home-page-programs-image-container{
+    width: 100%;
+    height: 15vw;
+    border-radius: 1vw;
+    margin-top: -9vw;
+}
+.home-page-programs-image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.home-page-programs-container h1{
+    font-size: 1.5vw;
+    text-align: center;
+    color: #ff0000;
+}
+.home-page-programs-container p{
+    font-size: 1.3vw;
+    text-align: center;
+    padding: 0.3vw;
 }

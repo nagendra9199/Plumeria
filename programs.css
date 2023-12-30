@@ -401,6 +401,17 @@ body{
     width: 40%;
     margin-left: 3vw;
 }
+.nursery-image-container{
+    width: 40%;
+}
+.nursery-image-container img{
+    width: 100%;
+}
+.nursery-contet-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .nursery-content-container h1{
     font-size: 2vw;
 }

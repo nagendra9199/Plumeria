@@ -62,7 +62,6 @@
                 </div>
                 <div class="programs-heading-container">
                     <h1 class="programs-heading">Admission</h1>
-                <h2 class="programs-sub-head">Home > <span class="programs-sub-head2">Admission</span></h2>
                 </div>
         </div>
 
@@ -87,46 +86,46 @@
             
 
             <div class="admission-form-side-container">
-                <form>
+                <form id="admissionForm">
                     <img src="images/form2.png" class="form2-image"/>
                     <img src="images/form3.png" class="form3-image"/>
                     <div class="admission-year">
                         <label>Admissions open for</label>
-                        <select class="inputs">
+                        <select class="inputs" id="admissionYear">
                             <option value="" class="admission-option">Select year</option>
-                            <option>2023-2024</option>
-                            <option>2024-2025</option>
-                            <option>2025-2026</option>
+                            <option>2024</option>
+                            <option>2025</option>
                         </select>
                     </div>
                     <div class="all-inputs-wrap">
                         <div class="inputs-wrap">
                             <label for="childfirstname">First Name</label>
-                            <input type="text" placeholder="Enter First Name" class="inputs"/>
+                            <input type="text" placeholder="Enter First Name" class="inputs" id="childfirstname"/>
                         </div>
                         <div class="inputs-wrap">
                             <label for="childlastname">Last Name</label>
-                            <input type="text" placeholder="Enter Last Name" class="inputs"/>
+                            <input type="text" placeholder="Enter Last Name" class="inputs" id="childlastname"/>
                         </div>
                         <div class="inputs-wrap">
                             <label for="parentname">Parent Name</label>
-                            <input type="text" placeholder="Enter Parent Name" class="inputs"/>
+                            <input type="text" placeholder="Enter Parent Name" class="inputs" id="parentname"/>
                         </div>
                         <div class="inputs-wrap">
                             <label for="mobilenumber">Mobile Number</label>
-                            <input type="Number" placeholder="Enter Parent Mobile Number" class="inputs"/>
+                            <input type="Number" placeholder="Enter Parent Mobile Number" class="inputs" id="mobilenumber"/>
                         </div>
                         <div class="inputs-wrap">
                             <label for="mail">Gmail</label>
-                            <input type="email" placeholder="Enter Gmail" class="inputs"/>
+                            <input type="email" placeholder="Enter Gmail" class="inputs" id="mail"/>
                         </div>
                         <div class="inputs-wrap">
                             <label for="location">Location</label>
-                            <input type="text" placeholder="Enter Your Location" class="inputs"/>
+                            <input type="text" placeholder="Enter Your Location" class="inputs" id="location"/>
                         </div>
                     </div>
                     <div class="admission-submit-button-container">
-                        <button class="submit-button">Submit</button>
+                        <button class="submit-button" id="submitbtn">Submit</button>
+                        <p id="successmessage"></p>
                     </div>
                     <img src="images/formimage.png" class="form-bottom-image"/>
                 </form>
@@ -159,11 +158,7 @@
                         <a href="gallery.html"><li>Gallery</li></a>
                         <a href="contactus.html"><li>Contact Us</li></a>
                     </div>
-                    <div class="footer-pages-2">
-                        <h1>Pages</h1>
-                        <p>About Us</p>
-                        <p>Programs</p>
-                    </div>
+                    
                     <div class="footer-contact-us">
                         <h1>Contact Us</h1>
                         <p><i class="fa fa-phone call-icon-footer"></i> +60 11-6545 6045</p>
@@ -204,6 +199,50 @@
         </section>
 
         <script>
+
+            const submitbtn=document.getElementById("submitbtn");
+            submitbtn.addEventListener('click',(event)=>{
+                event.preventDefault()
+
+                const admissionYear=document.getElementById("admissionYear").value;
+                const childfirstname=document.getElementById("childfirstname").value;
+                const childlastname=document.getElementById("childlastname").value;
+                const parentname=document.getElementById("parentname").value;
+                const mobilenumber=document.getElementById("mobilenumber").value;
+                const mail=document.getElementById("mail").value;
+                const location=document.getElementById("location").value;
+
+                const successmessage=document.getElementById('successmessage');
+
+
+                const admissiondata={'admissionYear':admissionYear,'childfirstname':childfirstname,'childlastname':childlastname,'parentname':parentname,'mobilenumber':mobilenumber,'mail':mail,'location':location}
+
+                if(admissionYear===''||childfirstname===''||childlastname===''||parentname===''||mobilenumber===''||mail===''||location===''){
+                    alert("Please fill in all fields before submitting.");
+                }else{
+                    fetch('http://localhost:3000/admissiondata',{
+                        method:'POST',
+                        headers:{
+                            'Content-Type':'application/json'
+                        },
+                        body:JSON.stringify(admissiondata)
+                    })
+                    .then(response=>response.json())
+                    .then(result=>{
+                        console.log(result);
+                    })
+                    document.getElementById("admissionForm").reset()
+                    successmessage.textContent="Thank you for your interest in our school. We will get back to you shortly!";
+                    successmessage.style.color="Green";
+                }
+            })
+
+
+
+
+
+
+
             document.addEventListener('contextmenu', function (e) {
                 e.preventDefault();
             });
@@ -220,6 +259,7 @@
                 navbar.classList.remove("navbar-fixed");
             }
         });
+
         </script>
         
 

@@ -9,22 +9,21 @@ body{
 .logo-header{
     display: flex;
     flex-direction: row;
-    position: relative; 
+    position: relative;
     width:38%;
 }
 .logo-header-image{
-    width: 55%;
+    width: 75%;
     margin: 0;
-    margin-top: 2vw;
-    margin-left: 5vw;
+    margin-top: vw;
+    margin-left: 3vw;
 }
 .title-school{
     font-size: 2vw;
     font-family: 'preahvihear';
     min-width: 70%;
-    margin-top: 3.5vw;
+    margin-top: 3vw;
     color: red;
-    margin-left: 2vw;
 }
 .call-head{
     font-weight: bold;
@@ -334,8 +333,9 @@ body{
 
 .admission-submit-button-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 2vw;
 }
 .submit-button{
@@ -644,4 +644,3 @@ body{
 .dropdown:hover .dropdown-content {
     display: block;
 }
- 

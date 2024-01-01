@@ -62,7 +62,6 @@
                 </div>
                 <div class="programs-heading-container">
                     <h1 class="programs-heading">Contact Us</h1>
-                <h2 class="programs-sub-head">Home > <span class="programs-sub-head2">Contact Us</span></h2>
                 </div>
                 
         </div>
@@ -75,7 +74,7 @@
             </div>
             <div class="contactus-main-container-part2">
                 <h1 class="contactus-heading">Contact Us</h1>
-                <form>
+                <form id="userform">
                     <div class="flex-all-inputs-container">
                         <div class="input-container">
                             <label for="firstname" class="input-label">First Name <span style="color: red;">*</span></label>
@@ -93,8 +92,8 @@
                         </div>
     
                         <div class="input-container">
-                            <label for="email" class="input-label">Email <span style="color: red;">*</span></label>
-                            <input type="email" id="email" class="input"/>
+                            <label for="mail" class="input-label">Email <span style="color: red;">*</span></label>
+                            <input type="email" id="mail" class="input"/>
                         </div>
     
                         <div class="input-container-message">
@@ -103,7 +102,8 @@
                         </div>
                     </div>
                     <div class="button-container">
-                        <button class="button">Submit</button>
+                        <button class="button" id="submitbtn">Submit</button>
+                        <p id="successmessage"></p>
                     </div>
                 </form>
             </div>
@@ -160,11 +160,7 @@
                         <a href="gallery.html"><li>Gallery</li></a>
                         <a href="contactus.html"><li>Contact Us</li></a>
                     </div>
-                    <div class="footer-pages-2">
-                        <h1>Pages</h1>
-                        <p>About Us</p>
-                        <p>Programs</p>
-                    </div>
+                    
                     <div class="footer-contact-us">
                         <h1>Contact Us</h1>
                         <p><i class="fa fa-phone call-icon-footer"></i> +60 11-6545 6045</p>
@@ -220,6 +216,48 @@
                 navbar.classList.remove("navbar-fixed");
             }
         });
+
+
+
+
+
+
+        const submitbtn=document.getElementById("submitbtn");
+            submitbtn.addEventListener('click',(event)=>{
+                event.preventDefault()
+
+                
+                const firstname=document.getElementById("firstname").value;
+                const lastname=document.getElementById("lastname").value;
+                
+                const number=document.getElementById("number").value;
+                const mail=document.getElementById("mail").value;
+                const message=document.getElementById("message").value;
+
+                const successmessage=document.getElementById('successmessage');
+
+
+                const contactusdata={'firstname':firstname,'lastname':lastname,'number':number,'mail':mail,'message':message}
+
+                if(firstname===''||lastname===''||number===''||mail===''||message===''){
+                    alert("Please fill in all fields before submitting.");
+                }else{
+                    fetch('http://localhost:3000/contactusdata',{
+                        method:'POST',
+                        headers:{
+                            'Content-Type':'application/json'
+                        },
+                        body:JSON.stringify(contactusdata)
+                    })
+                    .then(response=>response.json())
+                    .then(result=>{
+                        console.log(result);
+                    })
+                    document.getElementById("userform").reset()
+                    successmessage.textContent="Thank you for your interest in our school. We will get back to you shortly!";
+                    successmessage.style.color="Green";
+                }
+            })
         </script>
 
     </body>

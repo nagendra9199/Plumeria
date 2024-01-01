@@ -13,19 +13,18 @@ body{
     width:38%;
 }
 .logo-header-image{
-    width: 55%;
+    width: 75%;
     margin: 0;
-    margin-top: 2vw;
-    margin-left: 5vw;
+    margin-top: vw;
+    margin-left: 3vw;
 }
 .title-school{
     font-size: 2vw;
     font-family: 'preahvihear';
     min-width: 70%;
-    margin-top: 3.5vw;
-    color: red !important;
-    margin-left: 1vw;
-} 
+    margin-top: 3vw;
+    color: red;
+}
 .call-head{
     font-weight: bold;
     font-family: sans-serif;

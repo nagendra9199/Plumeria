@@ -13,16 +13,16 @@ body{
     width:38%;
 }
 .logo-header-image{
-    width: 55%;
+    width: 75%;
     margin: 0;
-    margin-top: 2vw; 
-    margin-left: 4vw;
+    margin-top: vw;
+    margin-left: 3vw;
 }
 .title-school{
     font-size: 2vw;
     font-family: 'preahvihear';
     min-width: 70%;
-    margin-top: 3.7vw;
+    margin-top: 3vw;
     color: red;
 }
 .call-head{
@@ -296,11 +296,24 @@ body{
     font-size: 2vw;
     color: rgba(235, 21, 81, 1);
 }
+.play-group-program-container{
+    padding-top:5.5vw;
+}
+.nursery-main-container{
+    padding-top: 5.5vw;
+}
+.dye-care-container{
+    padding-top: 5.5vw;
+}
 .play-group-program-image-container{
     width: 50%;
 }
+.play-group-program-image-container img{
+    width: 90%;
+}
 .play-group-content-image-container{
     display: flex;
+    align-items: center;
 }
 .play-group-program-content-container{
     width: 50%;
@@ -370,12 +383,16 @@ body{
 .key-focus-content h1{
     font-size: 1.5vw;
     color: rgba(235, 21, 81, 1);
-    height: 15%;
+    height: 18%;
+    font-weight: 600;
 }
 .key-focus-content p{
-    font-size: 1.3vw;
-    height: 45%;
+    font-size: 1.1vw;
+    height: 85%;
+    font-weight: 500;
+    overflow: hidden;
 }
+
 .key-focus-button button{
     background: linear-gradient(to right,rgba(135, 207, 58, 1),rgba(45, 204, 128, 1));
     border: none;
@@ -383,6 +400,10 @@ body{
     border-radius: 0.5vw;
     font-size: 1.5vw;
     margin-right: 1vw;
+}
+.key-focus-content.expanded p {
+    max-height: none;
+    overflow: auto;
 }
 .key-focus-button{
     display: flex;
@@ -426,7 +447,6 @@ body{
 .key-area-development-container{
     background-image: url("images/keydevelopment.svg");
     background-size: cover;
-    height: 30vw;
 }
 .key-area-flex-container{
     display: flex;
@@ -468,7 +488,7 @@ body{
 }
 .kindergarten-content-container h1{
     font-size: 2vw;
-    margin-left: 25vw;
+    margin-left: 1vw;
 }
 .kindergarten-content-container p{
     font-size: 1.3vw;
@@ -487,7 +507,7 @@ body{
 .kindergarten-background-container{
     background-image: url('images/kinderback.svg');
     background-size: cover;
-    padding-top: 0.5vw;   
+    padding-top: 5.5vw;
 }
 .kindergarten-para-head{
     background-color: white;
@@ -613,7 +633,7 @@ body{
     text-align: center;
 }
 .programs-facilities-head{
-    color: rgba(235, 21, 81, 1);
+    color: rgb(8, 152, 196);
     font-family: Preahvihear;
     font-size: 2vw;
     text-align: center;
